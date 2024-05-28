@@ -1,0 +1,3 @@
+/home/mastania/funjson/build/CMakeFiles/funjson_test.dir
+/home/mastania/funjson/build/CMakeFiles/edit_cache.dir
+/home/mastania/funjson/build/CMakeFiles/rebuild_cache.dir
