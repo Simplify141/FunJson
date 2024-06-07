@@ -7,14 +7,33 @@ void TreeNode::setNode(Node *nodes)
 {
     this->node = nodes;
 }
+
+void TreeNode::setParent(TreeNode *parent)
+{
+    this->parent = parent;
+}
+
+
+
+
+
+
 void TreeNode::setAllChildNum(int allChildNum)
 {
     this->allChildNum = allChildNum;
 }
 
+
+
 Node *TreeNode::getNode()
 {
     return this->node;
+}
+
+
+TreeNode *TreeNode::getParent()
+{
+    return this->parent;
 }
 
 int TreeNode::getAllChildNum()

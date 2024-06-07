@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/mastania/funjson/build"
+			"value" : "/home/mastania/FunJson2/FunJson/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -142,8 +142,8 @@
 					"value" : "CXX compiler"
 				}
 			],
-			"type" : "STRING",
-			"value" : "/usr/bin/g++"
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/c++"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_AR",
@@ -270,8 +270,8 @@
 					"value" : "C compiler"
 				}
 			],
-			"type" : "STRING",
-			"value" : "/usr/bin/gcc"
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/cc"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_AR",
@@ -539,7 +539,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/mastania/funjson/build/CMakeFiles/pkgRedirects"
+			"value" : "/home/mastania/FunJson2/FunJson/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -599,7 +599,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/mastania/funjson"
+			"value" : "/home/mastania/FunJson2/FunJson"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1163,7 +1163,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/mastania/funjson/build"
+			"value" : "/home/mastania/FunJson2/FunJson/build"
 		},
 		{
 			"name" : "funjson_IS_TOP_LEVEL",
@@ -1187,7 +1187,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/mastania/funjson"
+			"value" : "/home/mastania/FunJson2/FunJson"
 		}
 	],
 	"kind" : "cache",

@@ -53,10 +53,10 @@ RM = /home/mastania/envs/cmake-3.29.3-linux-x86_64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mastania/funjson
+CMAKE_SOURCE_DIR = /home/mastania/FunJson2/FunJson
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mastania/funjson/build
+CMAKE_BINARY_DIR = /home/mastania/FunJson2/FunJson/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/funjson_test.dir/depend.make
@@ -70,110 +70,126 @@ include CMakeFiles/funjson_test.dir/progress.make
 include CMakeFiles/funjson_test.dir/flags.make
 
 CMakeFiles/funjson_test.dir/src/FunJsonBuilder.cpp.o: CMakeFiles/funjson_test.dir/flags.make
-CMakeFiles/funjson_test.dir/src/FunJsonBuilder.cpp.o: /home/mastania/funjson/src/FunJsonBuilder.cpp
+CMakeFiles/funjson_test.dir/src/FunJsonBuilder.cpp.o: /home/mastania/FunJson2/FunJson/src/FunJsonBuilder.cpp
 CMakeFiles/funjson_test.dir/src/FunJsonBuilder.cpp.o: CMakeFiles/funjson_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mastania/funjson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/funjson_test.dir/src/FunJsonBuilder.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/funjson_test.dir/src/FunJsonBuilder.cpp.o -MF CMakeFiles/funjson_test.dir/src/FunJsonBuilder.cpp.o.d -o CMakeFiles/funjson_test.dir/src/FunJsonBuilder.cpp.o -c /home/mastania/funjson/src/FunJsonBuilder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mastania/FunJson2/FunJson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/funjson_test.dir/src/FunJsonBuilder.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/funjson_test.dir/src/FunJsonBuilder.cpp.o -MF CMakeFiles/funjson_test.dir/src/FunJsonBuilder.cpp.o.d -o CMakeFiles/funjson_test.dir/src/FunJsonBuilder.cpp.o -c /home/mastania/FunJson2/FunJson/src/FunJsonBuilder.cpp
 
 CMakeFiles/funjson_test.dir/src/FunJsonBuilder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/funjson_test.dir/src/FunJsonBuilder.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mastania/funjson/src/FunJsonBuilder.cpp > CMakeFiles/funjson_test.dir/src/FunJsonBuilder.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mastania/FunJson2/FunJson/src/FunJsonBuilder.cpp > CMakeFiles/funjson_test.dir/src/FunJsonBuilder.cpp.i
 
 CMakeFiles/funjson_test.dir/src/FunJsonBuilder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/funjson_test.dir/src/FunJsonBuilder.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mastania/funjson/src/FunJsonBuilder.cpp -o CMakeFiles/funjson_test.dir/src/FunJsonBuilder.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mastania/FunJson2/FunJson/src/FunJsonBuilder.cpp -o CMakeFiles/funjson_test.dir/src/FunJsonBuilder.cpp.s
+
+CMakeFiles/funjson_test.dir/src/Iterator.cpp.o: CMakeFiles/funjson_test.dir/flags.make
+CMakeFiles/funjson_test.dir/src/Iterator.cpp.o: /home/mastania/FunJson2/FunJson/src/Iterator.cpp
+CMakeFiles/funjson_test.dir/src/Iterator.cpp.o: CMakeFiles/funjson_test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mastania/FunJson2/FunJson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/funjson_test.dir/src/Iterator.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/funjson_test.dir/src/Iterator.cpp.o -MF CMakeFiles/funjson_test.dir/src/Iterator.cpp.o.d -o CMakeFiles/funjson_test.dir/src/Iterator.cpp.o -c /home/mastania/FunJson2/FunJson/src/Iterator.cpp
+
+CMakeFiles/funjson_test.dir/src/Iterator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/funjson_test.dir/src/Iterator.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mastania/FunJson2/FunJson/src/Iterator.cpp > CMakeFiles/funjson_test.dir/src/Iterator.cpp.i
+
+CMakeFiles/funjson_test.dir/src/Iterator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/funjson_test.dir/src/Iterator.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mastania/FunJson2/FunJson/src/Iterator.cpp -o CMakeFiles/funjson_test.dir/src/Iterator.cpp.s
 
 CMakeFiles/funjson_test.dir/src/JsonParser.cpp.o: CMakeFiles/funjson_test.dir/flags.make
-CMakeFiles/funjson_test.dir/src/JsonParser.cpp.o: /home/mastania/funjson/src/JsonParser.cpp
+CMakeFiles/funjson_test.dir/src/JsonParser.cpp.o: /home/mastania/FunJson2/FunJson/src/JsonParser.cpp
 CMakeFiles/funjson_test.dir/src/JsonParser.cpp.o: CMakeFiles/funjson_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mastania/funjson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/funjson_test.dir/src/JsonParser.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/funjson_test.dir/src/JsonParser.cpp.o -MF CMakeFiles/funjson_test.dir/src/JsonParser.cpp.o.d -o CMakeFiles/funjson_test.dir/src/JsonParser.cpp.o -c /home/mastania/funjson/src/JsonParser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mastania/FunJson2/FunJson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/funjson_test.dir/src/JsonParser.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/funjson_test.dir/src/JsonParser.cpp.o -MF CMakeFiles/funjson_test.dir/src/JsonParser.cpp.o.d -o CMakeFiles/funjson_test.dir/src/JsonParser.cpp.o -c /home/mastania/FunJson2/FunJson/src/JsonParser.cpp
 
 CMakeFiles/funjson_test.dir/src/JsonParser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/funjson_test.dir/src/JsonParser.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mastania/funjson/src/JsonParser.cpp > CMakeFiles/funjson_test.dir/src/JsonParser.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mastania/FunJson2/FunJson/src/JsonParser.cpp > CMakeFiles/funjson_test.dir/src/JsonParser.cpp.i
 
 CMakeFiles/funjson_test.dir/src/JsonParser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/funjson_test.dir/src/JsonParser.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mastania/funjson/src/JsonParser.cpp -o CMakeFiles/funjson_test.dir/src/JsonParser.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mastania/FunJson2/FunJson/src/JsonParser.cpp -o CMakeFiles/funjson_test.dir/src/JsonParser.cpp.s
 
 CMakeFiles/funjson_test.dir/src/Main.cpp.o: CMakeFiles/funjson_test.dir/flags.make
-CMakeFiles/funjson_test.dir/src/Main.cpp.o: /home/mastania/funjson/src/Main.cpp
+CMakeFiles/funjson_test.dir/src/Main.cpp.o: /home/mastania/FunJson2/FunJson/src/Main.cpp
 CMakeFiles/funjson_test.dir/src/Main.cpp.o: CMakeFiles/funjson_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mastania/funjson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/funjson_test.dir/src/Main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/funjson_test.dir/src/Main.cpp.o -MF CMakeFiles/funjson_test.dir/src/Main.cpp.o.d -o CMakeFiles/funjson_test.dir/src/Main.cpp.o -c /home/mastania/funjson/src/Main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mastania/FunJson2/FunJson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/funjson_test.dir/src/Main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/funjson_test.dir/src/Main.cpp.o -MF CMakeFiles/funjson_test.dir/src/Main.cpp.o.d -o CMakeFiles/funjson_test.dir/src/Main.cpp.o -c /home/mastania/FunJson2/FunJson/src/Main.cpp
 
 CMakeFiles/funjson_test.dir/src/Main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/funjson_test.dir/src/Main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mastania/funjson/src/Main.cpp > CMakeFiles/funjson_test.dir/src/Main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mastania/FunJson2/FunJson/src/Main.cpp > CMakeFiles/funjson_test.dir/src/Main.cpp.i
 
 CMakeFiles/funjson_test.dir/src/Main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/funjson_test.dir/src/Main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mastania/funjson/src/Main.cpp -o CMakeFiles/funjson_test.dir/src/Main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mastania/FunJson2/FunJson/src/Main.cpp -o CMakeFiles/funjson_test.dir/src/Main.cpp.s
 
 CMakeFiles/funjson_test.dir/src/Node.cpp.o: CMakeFiles/funjson_test.dir/flags.make
-CMakeFiles/funjson_test.dir/src/Node.cpp.o: /home/mastania/funjson/src/Node.cpp
+CMakeFiles/funjson_test.dir/src/Node.cpp.o: /home/mastania/FunJson2/FunJson/src/Node.cpp
 CMakeFiles/funjson_test.dir/src/Node.cpp.o: CMakeFiles/funjson_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mastania/funjson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/funjson_test.dir/src/Node.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/funjson_test.dir/src/Node.cpp.o -MF CMakeFiles/funjson_test.dir/src/Node.cpp.o.d -o CMakeFiles/funjson_test.dir/src/Node.cpp.o -c /home/mastania/funjson/src/Node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mastania/FunJson2/FunJson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/funjson_test.dir/src/Node.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/funjson_test.dir/src/Node.cpp.o -MF CMakeFiles/funjson_test.dir/src/Node.cpp.o.d -o CMakeFiles/funjson_test.dir/src/Node.cpp.o -c /home/mastania/FunJson2/FunJson/src/Node.cpp
 
 CMakeFiles/funjson_test.dir/src/Node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/funjson_test.dir/src/Node.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mastania/funjson/src/Node.cpp > CMakeFiles/funjson_test.dir/src/Node.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mastania/FunJson2/FunJson/src/Node.cpp > CMakeFiles/funjson_test.dir/src/Node.cpp.i
 
 CMakeFiles/funjson_test.dir/src/Node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/funjson_test.dir/src/Node.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mastania/funjson/src/Node.cpp -o CMakeFiles/funjson_test.dir/src/Node.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mastania/FunJson2/FunJson/src/Node.cpp -o CMakeFiles/funjson_test.dir/src/Node.cpp.s
 
-CMakeFiles/funjson_test.dir/src/StyleFactory.cpp.o: CMakeFiles/funjson_test.dir/flags.make
-CMakeFiles/funjson_test.dir/src/StyleFactory.cpp.o: /home/mastania/funjson/src/StyleFactory.cpp
-CMakeFiles/funjson_test.dir/src/StyleFactory.cpp.o: CMakeFiles/funjson_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mastania/funjson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/funjson_test.dir/src/StyleFactory.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/funjson_test.dir/src/StyleFactory.cpp.o -MF CMakeFiles/funjson_test.dir/src/StyleFactory.cpp.o.d -o CMakeFiles/funjson_test.dir/src/StyleFactory.cpp.o -c /home/mastania/funjson/src/StyleFactory.cpp
+CMakeFiles/funjson_test.dir/src/StyleStrategy.cpp.o: CMakeFiles/funjson_test.dir/flags.make
+CMakeFiles/funjson_test.dir/src/StyleStrategy.cpp.o: /home/mastania/FunJson2/FunJson/src/StyleStrategy.cpp
+CMakeFiles/funjson_test.dir/src/StyleStrategy.cpp.o: CMakeFiles/funjson_test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mastania/FunJson2/FunJson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/funjson_test.dir/src/StyleStrategy.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/funjson_test.dir/src/StyleStrategy.cpp.o -MF CMakeFiles/funjson_test.dir/src/StyleStrategy.cpp.o.d -o CMakeFiles/funjson_test.dir/src/StyleStrategy.cpp.o -c /home/mastania/FunJson2/FunJson/src/StyleStrategy.cpp
 
-CMakeFiles/funjson_test.dir/src/StyleFactory.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/funjson_test.dir/src/StyleFactory.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mastania/funjson/src/StyleFactory.cpp > CMakeFiles/funjson_test.dir/src/StyleFactory.cpp.i
+CMakeFiles/funjson_test.dir/src/StyleStrategy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/funjson_test.dir/src/StyleStrategy.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mastania/FunJson2/FunJson/src/StyleStrategy.cpp > CMakeFiles/funjson_test.dir/src/StyleStrategy.cpp.i
 
-CMakeFiles/funjson_test.dir/src/StyleFactory.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/funjson_test.dir/src/StyleFactory.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mastania/funjson/src/StyleFactory.cpp -o CMakeFiles/funjson_test.dir/src/StyleFactory.cpp.s
+CMakeFiles/funjson_test.dir/src/StyleStrategy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/funjson_test.dir/src/StyleStrategy.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mastania/FunJson2/FunJson/src/StyleStrategy.cpp -o CMakeFiles/funjson_test.dir/src/StyleStrategy.cpp.s
 
 CMakeFiles/funjson_test.dir/src/TreeNode.cpp.o: CMakeFiles/funjson_test.dir/flags.make
-CMakeFiles/funjson_test.dir/src/TreeNode.cpp.o: /home/mastania/funjson/src/TreeNode.cpp
+CMakeFiles/funjson_test.dir/src/TreeNode.cpp.o: /home/mastania/FunJson2/FunJson/src/TreeNode.cpp
 CMakeFiles/funjson_test.dir/src/TreeNode.cpp.o: CMakeFiles/funjson_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mastania/funjson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/funjson_test.dir/src/TreeNode.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/funjson_test.dir/src/TreeNode.cpp.o -MF CMakeFiles/funjson_test.dir/src/TreeNode.cpp.o.d -o CMakeFiles/funjson_test.dir/src/TreeNode.cpp.o -c /home/mastania/funjson/src/TreeNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mastania/FunJson2/FunJson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/funjson_test.dir/src/TreeNode.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/funjson_test.dir/src/TreeNode.cpp.o -MF CMakeFiles/funjson_test.dir/src/TreeNode.cpp.o.d -o CMakeFiles/funjson_test.dir/src/TreeNode.cpp.o -c /home/mastania/FunJson2/FunJson/src/TreeNode.cpp
 
 CMakeFiles/funjson_test.dir/src/TreeNode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/funjson_test.dir/src/TreeNode.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mastania/funjson/src/TreeNode.cpp > CMakeFiles/funjson_test.dir/src/TreeNode.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mastania/FunJson2/FunJson/src/TreeNode.cpp > CMakeFiles/funjson_test.dir/src/TreeNode.cpp.i
 
 CMakeFiles/funjson_test.dir/src/TreeNode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/funjson_test.dir/src/TreeNode.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mastania/funjson/src/TreeNode.cpp -o CMakeFiles/funjson_test.dir/src/TreeNode.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mastania/FunJson2/FunJson/src/TreeNode.cpp -o CMakeFiles/funjson_test.dir/src/TreeNode.cpp.s
 
 # Object files for target funjson_test
 funjson_test_OBJECTS = \
 "CMakeFiles/funjson_test.dir/src/FunJsonBuilder.cpp.o" \
+"CMakeFiles/funjson_test.dir/src/Iterator.cpp.o" \
 "CMakeFiles/funjson_test.dir/src/JsonParser.cpp.o" \
 "CMakeFiles/funjson_test.dir/src/Main.cpp.o" \
 "CMakeFiles/funjson_test.dir/src/Node.cpp.o" \
-"CMakeFiles/funjson_test.dir/src/StyleFactory.cpp.o" \
+"CMakeFiles/funjson_test.dir/src/StyleStrategy.cpp.o" \
 "CMakeFiles/funjson_test.dir/src/TreeNode.cpp.o"
 
 # External object files for target funjson_test
 funjson_test_EXTERNAL_OBJECTS =
 
 funjson_test: CMakeFiles/funjson_test.dir/src/FunJsonBuilder.cpp.o
+funjson_test: CMakeFiles/funjson_test.dir/src/Iterator.cpp.o
 funjson_test: CMakeFiles/funjson_test.dir/src/JsonParser.cpp.o
 funjson_test: CMakeFiles/funjson_test.dir/src/Main.cpp.o
 funjson_test: CMakeFiles/funjson_test.dir/src/Node.cpp.o
-funjson_test: CMakeFiles/funjson_test.dir/src/StyleFactory.cpp.o
+funjson_test: CMakeFiles/funjson_test.dir/src/StyleStrategy.cpp.o
 funjson_test: CMakeFiles/funjson_test.dir/src/TreeNode.cpp.o
 funjson_test: CMakeFiles/funjson_test.dir/build.make
 funjson_test: CMakeFiles/funjson_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/mastania/funjson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable funjson_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/mastania/FunJson2/FunJson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable funjson_test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/funjson_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -185,6 +201,6 @@ CMakeFiles/funjson_test.dir/clean:
 .PHONY : CMakeFiles/funjson_test.dir/clean
 
 CMakeFiles/funjson_test.dir/depend:
-	cd /home/mastania/funjson/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mastania/funjson /home/mastania/funjson /home/mastania/funjson/build /home/mastania/funjson/build /home/mastania/funjson/build/CMakeFiles/funjson_test.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/mastania/FunJson2/FunJson/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mastania/FunJson2/FunJson /home/mastania/FunJson2/FunJson /home/mastania/FunJson2/FunJson/build /home/mastania/FunJson2/FunJson/build /home/mastania/FunJson2/FunJson/build/CMakeFiles/funjson_test.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/funjson_test.dir/depend
 

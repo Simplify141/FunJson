@@ -7,10 +7,10 @@ set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 
+set(SRC_LIST)
+file(GLOB SRC_LIST ${CMAKE_CURRENT_SOURCE_DIR}/src/*.cpp)
 
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include ${CMAKE_CURRENT_SOURCE_DIR}/src)
+include_directories("/usr/include/x86_64-linux-gnu/c++/11")
 
-# 添加src和include目录下的源文件
-file(GLOB_RECURSE SOURCES "src/*" "include/*")
-
-add_executable(funjson_test ${SOURCES})
+add_executable(funjson_test ${SRC_LIST})

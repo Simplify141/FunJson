@@ -2,16 +2,20 @@
 #include <vector>
 #include <string>
 #include "Node.h"
+#pragma once
 class TreeNode
 {
 private:
+    TreeNode* parent;
     Node* node;
     int allChildNum;
 public:
     void setNode(Node* node);
+    void setParent(TreeNode* parent);
     void setAllChildNum(int allChildNum);
 
     Node* getNode();
+    TreeNode* getParent();
     int getAllChildNum();
 
     virtual std::vector<TreeNode *> getChilds()=0;

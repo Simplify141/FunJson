@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /home/mastania/funjson/build/
+cmake_ninja_workdir = /home/mastania/FunJson2/FunJson/build/
 # =============================================================================
 # Object build statements for EXECUTABLE target funjson_test
 
@@ -49,45 +49,52 @@ cmake_ninja_workdir = /home/mastania/funjson/build/
 
 build cmake_object_order_depends_target_funjson_test: phony || .
 
-build CMakeFiles/funjson_test.dir/src/FunJsonBuilder.cpp.o: CXX_COMPILER__funjson_test_unscanned_Debug /home/mastania/funjson/src/FunJsonBuilder.cpp || cmake_object_order_depends_target_funjson_test
+build CMakeFiles/funjson_test.dir/src/FunJsonBuilder.cpp.o: CXX_COMPILER__funjson_test_unscanned_Debug /home/mastania/FunJson2/FunJson/src/FunJsonBuilder.cpp || cmake_object_order_depends_target_funjson_test
   DEP_FILE = CMakeFiles/funjson_test.dir/src/FunJsonBuilder.cpp.o.d
   FLAGS = -g -std=gnu++11
-  INCLUDES = -I/home/mastania/funjson/include -I/home/mastania/funjson/src
+  INCLUDES = -I/home/mastania/FunJson2/FunJson/include -I/home/mastania/FunJson2/FunJson/src
   OBJECT_DIR = CMakeFiles/funjson_test.dir
   OBJECT_FILE_DIR = CMakeFiles/funjson_test.dir/src
 
-build CMakeFiles/funjson_test.dir/src/JsonParser.cpp.o: CXX_COMPILER__funjson_test_unscanned_Debug /home/mastania/funjson/src/JsonParser.cpp || cmake_object_order_depends_target_funjson_test
+build CMakeFiles/funjson_test.dir/src/Iterator.cpp.o: CXX_COMPILER__funjson_test_unscanned_Debug /home/mastania/FunJson2/FunJson/src/Iterator.cpp || cmake_object_order_depends_target_funjson_test
+  DEP_FILE = CMakeFiles/funjson_test.dir/src/Iterator.cpp.o.d
+  FLAGS = -g -std=gnu++11
+  INCLUDES = -I/home/mastania/FunJson2/FunJson/include -I/home/mastania/FunJson2/FunJson/src
+  OBJECT_DIR = CMakeFiles/funjson_test.dir
+  OBJECT_FILE_DIR = CMakeFiles/funjson_test.dir/src
+
+build CMakeFiles/funjson_test.dir/src/JsonParser.cpp.o: CXX_COMPILER__funjson_test_unscanned_Debug /home/mastania/FunJson2/FunJson/src/JsonParser.cpp || cmake_object_order_depends_target_funjson_test
   DEP_FILE = CMakeFiles/funjson_test.dir/src/JsonParser.cpp.o.d
   FLAGS = -g -std=gnu++11
-  INCLUDES = -I/home/mastania/funjson/include -I/home/mastania/funjson/src
+  INCLUDES = -I/home/mastania/FunJson2/FunJson/include -I/home/mastania/FunJson2/FunJson/src
   OBJECT_DIR = CMakeFiles/funjson_test.dir
   OBJECT_FILE_DIR = CMakeFiles/funjson_test.dir/src
 
-build CMakeFiles/funjson_test.dir/src/Main.cpp.o: CXX_COMPILER__funjson_test_unscanned_Debug /home/mastania/funjson/src/Main.cpp || cmake_object_order_depends_target_funjson_test
+build CMakeFiles/funjson_test.dir/src/Main.cpp.o: CXX_COMPILER__funjson_test_unscanned_Debug /home/mastania/FunJson2/FunJson/src/Main.cpp || cmake_object_order_depends_target_funjson_test
   DEP_FILE = CMakeFiles/funjson_test.dir/src/Main.cpp.o.d
   FLAGS = -g -std=gnu++11
-  INCLUDES = -I/home/mastania/funjson/include -I/home/mastania/funjson/src
+  INCLUDES = -I/home/mastania/FunJson2/FunJson/include -I/home/mastania/FunJson2/FunJson/src
   OBJECT_DIR = CMakeFiles/funjson_test.dir
   OBJECT_FILE_DIR = CMakeFiles/funjson_test.dir/src
 
-build CMakeFiles/funjson_test.dir/src/Node.cpp.o: CXX_COMPILER__funjson_test_unscanned_Debug /home/mastania/funjson/src/Node.cpp || cmake_object_order_depends_target_funjson_test
+build CMakeFiles/funjson_test.dir/src/Node.cpp.o: CXX_COMPILER__funjson_test_unscanned_Debug /home/mastania/FunJson2/FunJson/src/Node.cpp || cmake_object_order_depends_target_funjson_test
   DEP_FILE = CMakeFiles/funjson_test.dir/src/Node.cpp.o.d
   FLAGS = -g -std=gnu++11
-  INCLUDES = -I/home/mastania/funjson/include -I/home/mastania/funjson/src
+  INCLUDES = -I/home/mastania/FunJson2/FunJson/include -I/home/mastania/FunJson2/FunJson/src
   OBJECT_DIR = CMakeFiles/funjson_test.dir
   OBJECT_FILE_DIR = CMakeFiles/funjson_test.dir/src
 
-build CMakeFiles/funjson_test.dir/src/StyleFactory.cpp.o: CXX_COMPILER__funjson_test_unscanned_Debug /home/mastania/funjson/src/StyleFactory.cpp || cmake_object_order_depends_target_funjson_test
-  DEP_FILE = CMakeFiles/funjson_test.dir/src/StyleFactory.cpp.o.d
+build CMakeFiles/funjson_test.dir/src/StyleStrategy.cpp.o: CXX_COMPILER__funjson_test_unscanned_Debug /home/mastania/FunJson2/FunJson/src/StyleStrategy.cpp || cmake_object_order_depends_target_funjson_test
+  DEP_FILE = CMakeFiles/funjson_test.dir/src/StyleStrategy.cpp.o.d
   FLAGS = -g -std=gnu++11
-  INCLUDES = -I/home/mastania/funjson/include -I/home/mastania/funjson/src
+  INCLUDES = -I/home/mastania/FunJson2/FunJson/include -I/home/mastania/FunJson2/FunJson/src
   OBJECT_DIR = CMakeFiles/funjson_test.dir
   OBJECT_FILE_DIR = CMakeFiles/funjson_test.dir/src
 
-build CMakeFiles/funjson_test.dir/src/TreeNode.cpp.o: CXX_COMPILER__funjson_test_unscanned_Debug /home/mastania/funjson/src/TreeNode.cpp || cmake_object_order_depends_target_funjson_test
+build CMakeFiles/funjson_test.dir/src/TreeNode.cpp.o: CXX_COMPILER__funjson_test_unscanned_Debug /home/mastania/FunJson2/FunJson/src/TreeNode.cpp || cmake_object_order_depends_target_funjson_test
   DEP_FILE = CMakeFiles/funjson_test.dir/src/TreeNode.cpp.o.d
   FLAGS = -g -std=gnu++11
-  INCLUDES = -I/home/mastania/funjson/include -I/home/mastania/funjson/src
+  INCLUDES = -I/home/mastania/FunJson2/FunJson/include -I/home/mastania/FunJson2/FunJson/src
   OBJECT_DIR = CMakeFiles/funjson_test.dir
   OBJECT_FILE_DIR = CMakeFiles/funjson_test.dir/src
 
@@ -99,7 +106,7 @@ build CMakeFiles/funjson_test.dir/src/TreeNode.cpp.o: CXX_COMPILER__funjson_test
 #############################################
 # Link the executable funjson_test
 
-build funjson_test: CXX_EXECUTABLE_LINKER__funjson_test_Debug CMakeFiles/funjson_test.dir/src/FunJsonBuilder.cpp.o CMakeFiles/funjson_test.dir/src/JsonParser.cpp.o CMakeFiles/funjson_test.dir/src/Main.cpp.o CMakeFiles/funjson_test.dir/src/Node.cpp.o CMakeFiles/funjson_test.dir/src/StyleFactory.cpp.o CMakeFiles/funjson_test.dir/src/TreeNode.cpp.o
+build funjson_test: CXX_EXECUTABLE_LINKER__funjson_test_Debug CMakeFiles/funjson_test.dir/src/FunJsonBuilder.cpp.o CMakeFiles/funjson_test.dir/src/Iterator.cpp.o CMakeFiles/funjson_test.dir/src/JsonParser.cpp.o CMakeFiles/funjson_test.dir/src/Main.cpp.o CMakeFiles/funjson_test.dir/src/Node.cpp.o CMakeFiles/funjson_test.dir/src/StyleStrategy.cpp.o CMakeFiles/funjson_test.dir/src/TreeNode.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/funjson_test.dir
   POST_BUILD = :
@@ -112,7 +119,7 @@ build funjson_test: CXX_EXECUTABLE_LINKER__funjson_test_Debug CMakeFiles/funjson
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/mastania/funjson/build && /home/mastania/envs/cmake-3.29.3-linux-x86_64/bin/ccmake -S/home/mastania/funjson -B/home/mastania/funjson/build
+  COMMAND = cd /home/mastania/FunJson2/FunJson/build && /home/mastania/envs/cmake-3.29.3-linux-x86_64/bin/ccmake -S/home/mastania/FunJson2/FunJson -B/home/mastania/FunJson2/FunJson/build
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -124,7 +131,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/mastania/funjson/build && /home/mastania/envs/cmake-3.29.3-linux-x86_64/bin/cmake --regenerate-during-build -S/home/mastania/funjson -B/home/mastania/funjson/build
+  COMMAND = cd /home/mastania/FunJson2/FunJson/build && /home/mastania/envs/cmake-3.29.3-linux-x86_64/bin/cmake --regenerate-during-build -S/home/mastania/FunJson2/FunJson -B/home/mastania/FunJson2/FunJson/build
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -140,7 +147,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 #############################################
-# Folder: /home/mastania/funjson/build
+# Folder: /home/mastania/FunJson2/FunJson/build
 
 build all: phony funjson_test
 
@@ -151,14 +158,14 @@ build all: phony funjson_test
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/CMakeCInformation.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/Compiler/GNU.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/Platform/Linux-GNU-C.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/Platform/Linux-GNU-CXX.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/Platform/Linux-GNU.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/Platform/Linux-Initialize.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/Platform/Linux.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/Platform/UnixPaths.cmake /home/mastania/funjson/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.3/CMakeCCompiler.cmake CMakeFiles/3.29.3/CMakeCXXCompiler.cmake CMakeFiles/3.29.3/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /home/mastania/FunJson2/FunJson/CMakeLists.txt /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/CMakeCInformation.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/Compiler/GNU.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/Platform/Linux-GNU-C.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/Platform/Linux-GNU-CXX.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/Platform/Linux-GNU.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/Platform/Linux-Initialize.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/Platform/Linux.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.29.3/CMakeCCompiler.cmake CMakeFiles/3.29.3/CMakeCXXCompiler.cmake CMakeFiles/3.29.3/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/CMakeCInformation.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/Compiler/GNU.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/Platform/Linux-GNU-C.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/Platform/Linux-GNU-CXX.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/Platform/Linux-GNU.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/Platform/Linux-Initialize.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/Platform/Linux.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/Platform/UnixPaths.cmake /home/mastania/funjson/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.3/CMakeCCompiler.cmake CMakeFiles/3.29.3/CMakeCXXCompiler.cmake CMakeFiles/3.29.3/CMakeSystem.cmake: phony
+build /home/mastania/FunJson2/FunJson/CMakeLists.txt /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/CMakeCInformation.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/Compiler/GNU.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/Platform/Linux-GNU-C.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/Platform/Linux-GNU-CXX.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/Platform/Linux-GNU.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/Platform/Linux-Initialize.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/Platform/Linux.cmake /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.29.3/CMakeCCompiler.cmake CMakeFiles/3.29.3/CMakeCXXCompiler.cmake CMakeFiles/3.29.3/CMakeSystem.cmake: phony
 
 
 #############################################

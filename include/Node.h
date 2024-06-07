@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#pragma once
 class Node
 {
 private:
@@ -8,6 +9,8 @@ public:
     ~Node();
     virtual std::wstring print() = 0;
     virtual int get_level() = 0;
+    virtual bool get_isLast()=0;
+    virtual void set_isLast(bool isLast)=0;
 };
 class LeafNode : public Node
 {
@@ -15,12 +18,14 @@ private:
     std::wstring graph;
     std::wstring node_name;
     int level;
+    bool isLast;
 
 public:
     void set_level(int levels);
     void set_graph(std::wstring graph_name);
     void set_node_name(std::wstring node_name);
-
+    virtual bool get_isLast();
+    virtual void set_isLast(bool isLast);
     virtual int get_level();
     std::wstring get_graph();
     std::wstring get_node_name();
@@ -51,13 +56,17 @@ private:
     std::wstring graph;
     std::wstring node_name;
     int level;
+    bool isLast;
 
 public:
     void set_level(int levels);
+
     void set_graph(std::wstring graph_name);
     void set_node_name(std::wstring node_name);
-
+    virtual bool get_isLast();
+    virtual void set_isLast(bool isLast);
     virtual int get_level();
+
     std::wstring get_graph();
     std::wstring get_node_name();
 

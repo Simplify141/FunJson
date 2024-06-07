@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/mastania/funjson/include -I/home/mastania/funjson/src
+CXX_INCLUDES = -I/home/mastania/FunJson2/FunJson/include -I/home/mastania/FunJson2/FunJson/src
 
 CXX_FLAGS = -std=gnu++11
 

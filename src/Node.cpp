@@ -24,7 +24,14 @@ void LeafNode::set_level(int levels)
 {
     this->level = levels;
 }
-
+void LeafNode::set_isLast(bool isLast)
+{
+    this->isLast = isLast;
+}
+bool LeafNode::get_isLast()
+{
+    return isLast;
+}
 std::wstring LeafNode::get_graph()
 {
     return graph;
@@ -40,7 +47,7 @@ int LeafNode::get_level()
 std::wstring LeafNode::print()
 {
     std::wstring temp = L"";
-    temp += this->graph + this->node_name ;
+    temp += this->graph + this->node_name;
     return temp;
 }
 
@@ -74,6 +81,14 @@ void MidNode::set_level(int levels)
     this->level = levels;
 }
 
+void MidNode::set_isLast(bool isLast)
+{
+    this->isLast = isLast;
+}
+bool MidNode::get_isLast()
+{
+    return isLast;
+}
 void MidNode::set_graph(std::wstring graph_name)
 {
     graph = graph_name;
@@ -100,7 +115,7 @@ int MidNode::get_level()
 std::wstring MidNode::print()
 {
     std::wstring temp = L"";
-    temp += this->graph + this->node_name ;
+    temp += this->graph + this->node_name;
     return temp;
 }
 

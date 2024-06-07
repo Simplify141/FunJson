@@ -1,38 +1,44 @@
 [
 {
-  "directory": "/home/mastania/funjson/build",
-  "command": "/usr/bin/g++ -I/home/mastania/funjson/include -I/home/mastania/funjson/src -g -std=gnu++11 -o CMakeFiles/funjson_test.dir/src/FunJsonBuilder.cpp.o -c /home/mastania/funjson/src/FunJsonBuilder.cpp",
-  "file": "/home/mastania/funjson/src/FunJsonBuilder.cpp",
+  "directory": "/home/mastania/FunJson2/FunJson/build",
+  "command": "/usr/bin/c++ -I/home/mastania/FunJson2/FunJson/include -I/home/mastania/FunJson2/FunJson/src -g -std=gnu++11 -o CMakeFiles/funjson_test.dir/src/FunJsonBuilder.cpp.o -c /home/mastania/FunJson2/FunJson/src/FunJsonBuilder.cpp",
+  "file": "/home/mastania/FunJson2/FunJson/src/FunJsonBuilder.cpp",
   "output": "CMakeFiles/funjson_test.dir/src/FunJsonBuilder.cpp.o"
 },
 {
-  "directory": "/home/mastania/funjson/build",
-  "command": "/usr/bin/g++ -I/home/mastania/funjson/include -I/home/mastania/funjson/src -g -std=gnu++11 -o CMakeFiles/funjson_test.dir/src/JsonParser.cpp.o -c /home/mastania/funjson/src/JsonParser.cpp",
-  "file": "/home/mastania/funjson/src/JsonParser.cpp",
+  "directory": "/home/mastania/FunJson2/FunJson/build",
+  "command": "/usr/bin/c++ -I/home/mastania/FunJson2/FunJson/include -I/home/mastania/FunJson2/FunJson/src -g -std=gnu++11 -o CMakeFiles/funjson_test.dir/src/Iterator.cpp.o -c /home/mastania/FunJson2/FunJson/src/Iterator.cpp",
+  "file": "/home/mastania/FunJson2/FunJson/src/Iterator.cpp",
+  "output": "CMakeFiles/funjson_test.dir/src/Iterator.cpp.o"
+},
+{
+  "directory": "/home/mastania/FunJson2/FunJson/build",
+  "command": "/usr/bin/c++ -I/home/mastania/FunJson2/FunJson/include -I/home/mastania/FunJson2/FunJson/src -g -std=gnu++11 -o CMakeFiles/funjson_test.dir/src/JsonParser.cpp.o -c /home/mastania/FunJson2/FunJson/src/JsonParser.cpp",
+  "file": "/home/mastania/FunJson2/FunJson/src/JsonParser.cpp",
   "output": "CMakeFiles/funjson_test.dir/src/JsonParser.cpp.o"
 },
 {
-  "directory": "/home/mastania/funjson/build",
-  "command": "/usr/bin/g++ -I/home/mastania/funjson/include -I/home/mastania/funjson/src -g -std=gnu++11 -o CMakeFiles/funjson_test.dir/src/Main.cpp.o -c /home/mastania/funjson/src/Main.cpp",
-  "file": "/home/mastania/funjson/src/Main.cpp",
+  "directory": "/home/mastania/FunJson2/FunJson/build",
+  "command": "/usr/bin/c++ -I/home/mastania/FunJson2/FunJson/include -I/home/mastania/FunJson2/FunJson/src -g -std=gnu++11 -o CMakeFiles/funjson_test.dir/src/Main.cpp.o -c /home/mastania/FunJson2/FunJson/src/Main.cpp",
+  "file": "/home/mastania/FunJson2/FunJson/src/Main.cpp",
   "output": "CMakeFiles/funjson_test.dir/src/Main.cpp.o"
 },
 {
-  "directory": "/home/mastania/funjson/build",
-  "command": "/usr/bin/g++ -I/home/mastania/funjson/include -I/home/mastania/funjson/src -g -std=gnu++11 -o CMakeFiles/funjson_test.dir/src/Node.cpp.o -c /home/mastania/funjson/src/Node.cpp",
-  "file": "/home/mastania/funjson/src/Node.cpp",
+  "directory": "/home/mastania/FunJson2/FunJson/build",
+  "command": "/usr/bin/c++ -I/home/mastania/FunJson2/FunJson/include -I/home/mastania/FunJson2/FunJson/src -g -std=gnu++11 -o CMakeFiles/funjson_test.dir/src/Node.cpp.o -c /home/mastania/FunJson2/FunJson/src/Node.cpp",
+  "file": "/home/mastania/FunJson2/FunJson/src/Node.cpp",
   "output": "CMakeFiles/funjson_test.dir/src/Node.cpp.o"
 },
 {
-  "directory": "/home/mastania/funjson/build",
-  "command": "/usr/bin/g++ -I/home/mastania/funjson/include -I/home/mastania/funjson/src -g -std=gnu++11 -o CMakeFiles/funjson_test.dir/src/StyleFactory.cpp.o -c /home/mastania/funjson/src/StyleFactory.cpp",
-  "file": "/home/mastania/funjson/src/StyleFactory.cpp",
-  "output": "CMakeFiles/funjson_test.dir/src/StyleFactory.cpp.o"
+  "directory": "/home/mastania/FunJson2/FunJson/build",
+  "command": "/usr/bin/c++ -I/home/mastania/FunJson2/FunJson/include -I/home/mastania/FunJson2/FunJson/src -g -std=gnu++11 -o CMakeFiles/funjson_test.dir/src/StyleStrategy.cpp.o -c /home/mastania/FunJson2/FunJson/src/StyleStrategy.cpp",
+  "file": "/home/mastania/FunJson2/FunJson/src/StyleStrategy.cpp",
+  "output": "CMakeFiles/funjson_test.dir/src/StyleStrategy.cpp.o"
 },
 {
-  "directory": "/home/mastania/funjson/build",
-  "command": "/usr/bin/g++ -I/home/mastania/funjson/include -I/home/mastania/funjson/src -g -std=gnu++11 -o CMakeFiles/funjson_test.dir/src/TreeNode.cpp.o -c /home/mastania/funjson/src/TreeNode.cpp",
-  "file": "/home/mastania/funjson/src/TreeNode.cpp",
+  "directory": "/home/mastania/FunJson2/FunJson/build",
+  "command": "/usr/bin/c++ -I/home/mastania/FunJson2/FunJson/include -I/home/mastania/FunJson2/FunJson/src -g -std=gnu++11 -o CMakeFiles/funjson_test.dir/src/TreeNode.cpp.o -c /home/mastania/FunJson2/FunJson/src/TreeNode.cpp",
+  "file": "/home/mastania/FunJson2/FunJson/src/TreeNode.cpp",
   "output": "CMakeFiles/funjson_test.dir/src/TreeNode.cpp.o"
 }
 ]

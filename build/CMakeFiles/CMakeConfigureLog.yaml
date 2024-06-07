@@ -28,7 +28,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
       
       The C compiler identification is GNU, found in:
-        /home/mastania/funjson/build/CMakeFiles/3.29.3/CompilerIdC/a.out
+        /home/mastania/FunJson2/FunJson/build/CMakeFiles/3.29.3/CompilerIdC/a.out
       
   -
     kind: "message-v1"
@@ -50,7 +50,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
       
       The CXX compiler identification is GNU, found in:
-        /home/mastania/funjson/build/CMakeFiles/3.29.3/CompilerIdCXX/a.out
+        /home/mastania/FunJson2/FunJson/build/CMakeFiles/3.29.3/CompilerIdCXX/a.out
       
   -
     kind: "try_compile-v1"
@@ -61,8 +61,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/mastania/funjson/build/CMakeFiles/CMakeScratch/TryCompile-RC1jiq"
-      binary: "/home/mastania/funjson/build/CMakeFiles/CMakeScratch/TryCompile-RC1jiq"
+      source: "/home/mastania/FunJson2/FunJson/build/CMakeFiles/CMakeScratch/TryCompile-0xxTK3"
+      binary: "/home/mastania/FunJson2/FunJson/build/CMakeFiles/CMakeScratch/TryCompile-0xxTK3"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -71,13 +71,13 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/mastania/funjson/build/CMakeFiles/CMakeScratch/TryCompile-RC1jiq'
+        Change Dir: '/home/mastania/FunJson2/FunJson/build/CMakeFiles/CMakeScratch/TryCompile-0xxTK3'
         
-        Run Build Command(s): /home/mastania/envs/cmake-3.29.3-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ca3dd/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_ca3dd.dir/build.make CMakeFiles/cmTC_ca3dd.dir/build
-        gmake[1]: Entering directory '/home/mastania/funjson/build/CMakeFiles/CMakeScratch/TryCompile-RC1jiq'
-        Building C object CMakeFiles/cmTC_ca3dd.dir/CMakeCCompilerABI.c.o
-        /usr/bin/cc   -v -o CMakeFiles/cmTC_ca3dd.dir/CMakeCCompilerABI.c.o -c /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /home/mastania/envs/cmake-3.29.3-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0d25b/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_0d25b.dir/build.make CMakeFiles/cmTC_0d25b.dir/build
+        gmake[1]: Entering directory '/home/mastania/FunJson2/FunJson/build/CMakeFiles/CMakeScratch/TryCompile-0xxTK3'
+        Building C object CMakeFiles/cmTC_0d25b.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_0d25b.dir/CMakeCCompilerABI.c.o -c /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -87,8 +87,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ca3dd.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ca3dd.dir/'
-         /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_ca3dd.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc8FH0wb.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0d25b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0d25b.dir/'
+         /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_0d25b.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccuumCOQ.s
         GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
         	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
         
@@ -98,6 +98,18 @@ events:
         ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
         #include "..." search starts here:
         #include <...> search starts here:
+         /home/mastania/intel/oneapi/tbb/2021.11/env/../include
+         /home/mastania/intel/oneapi/mpi/2021.11/include
+         /home/mastania/intel/oneapi/mkl/2024.0/include
+         /home/mastania/intel/oneapi/ippcp/2021.9/include
+         /home/mastania/intel/oneapi/ipp/2021.10/include
+         /home/mastania/intel/oneapi/dpl/2022.3/include
+         /home/mastania/intel/oneapi/dpcpp-ct/2024.0/include
+         /home/mastania/intel/oneapi/dnnl/2024.0/include
+         /home/mastania/intel/oneapi/dev-utilities/2024.0/include
+         /home/mastania/intel/oneapi/dal/2024.0/include/dal
+         /home/mastania/intel/oneapi/compiler/2024.0/opt/oclfpga/include
+         /home/mastania/intel/oneapi/ccl/2021.11/include
          /usr/lib/gcc/x86_64-linux-gnu/11/include
          /usr/local/include
          /usr/include/x86_64-linux-gnu
@@ -108,15 +120,15 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: 50eaa2331df977b8016186198deb2d18
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ca3dd.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ca3dd.dir/'
-         as -v --64 -o CMakeFiles/cmTC_ca3dd.dir/CMakeCCompilerABI.c.o /tmp/cc8FH0wb.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0d25b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0d25b.dir/'
+         as -v --64 -o CMakeFiles/cmTC_0d25b.dir/CMakeCCompilerABI.c.o /tmp/ccuumCOQ.s
         GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
         COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
-        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ca3dd.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ca3dd.dir/CMakeCCompilerABI.c.'
-        Linking C executable cmTC_ca3dd
-        /home/mastania/envs/cmake-3.29.3-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca3dd.dir/link.txt --verbose=1
-        /usr/bin/cc  -v -Wl,-v CMakeFiles/cmTC_ca3dd.dir/CMakeCCompilerABI.c.o -o cmTC_ca3dd
+        LIBRARY_PATH=/home/mastania/intel/oneapi/tbb/2021.11/env/../lib/intel64/gcc4.8/../lib/:/home/mastania/intel/oneapi/mpi/2021.11/lib/../lib/:/home/mastania/intel/oneapi/mkl/2024.0/lib/../lib/:/home/mastania/intel/oneapi/ippcp/2021.9/lib/../lib/:/home/mastania/intel/oneapi/ipp/2021.10/lib/../lib/:/home/mastania/intel/oneapi/dpl/2022.3/lib/../lib/:/home/mastania/intel/oneapi/dnnl/2024.0/lib/../lib/:/home/mastania/intel/oneapi/dal/2024.0/lib/../lib/:/home/mastania/intel/oneapi/compiler/2024.0/lib/../lib/:/home/mastania/intel/oneapi/ccl/2021.11/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/mastania/intel/oneapi/tbb/2021.11/env/../lib/intel64/gcc4.8/:/home/mastania/intel/oneapi/mpi/2021.11/lib/:/home/mastania/intel/oneapi/mkl/2024.0/lib/:/home/mastania/intel/oneapi/ippcp/2021.9/lib/:/home/mastania/intel/oneapi/ipp/2021.10/lib/:/home/mastania/intel/oneapi/dpl/2022.3/lib/:/home/mastania/intel/oneapi/dnnl/2024.0/lib/:/home/mastania/intel/oneapi/dal/2024.0/lib/:/home/mastania/intel/oneapi/compiler/2024.0/lib/:/home/mastania/intel/oneapi/ccl/2021.11/lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0d25b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0d25b.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_0d25b
+        /home/mastania/envs/cmake-3.29.3-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d25b.dir/link.txt --verbose=1
+        /usr/bin/cc  -v -Wl,-v CMakeFiles/cmTC_0d25b.dir/CMakeCCompilerABI.c.o -o cmTC_0d25b
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
@@ -128,14 +140,14 @@ events:
         Supported LTO compression algorithms: zlib zstd
         gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
         COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
-        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ca3dd' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ca3dd.'
-         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4to53L.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_ca3dd /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_ca3dd.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+        LIBRARY_PATH=/home/mastania/intel/oneapi/tbb/2021.11/env/../lib/intel64/gcc4.8/../lib/:/home/mastania/intel/oneapi/mpi/2021.11/lib/../lib/:/home/mastania/intel/oneapi/mkl/2024.0/lib/../lib/:/home/mastania/intel/oneapi/ippcp/2021.9/lib/../lib/:/home/mastania/intel/oneapi/ipp/2021.10/lib/../lib/:/home/mastania/intel/oneapi/dpl/2022.3/lib/../lib/:/home/mastania/intel/oneapi/dnnl/2024.0/lib/../lib/:/home/mastania/intel/oneapi/dal/2024.0/lib/../lib/:/home/mastania/intel/oneapi/compiler/2024.0/lib/../lib/:/home/mastania/intel/oneapi/ccl/2021.11/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/mastania/intel/oneapi/tbb/2021.11/env/../lib/intel64/gcc4.8/:/home/mastania/intel/oneapi/mpi/2021.11/lib/:/home/mastania/intel/oneapi/mkl/2024.0/lib/:/home/mastania/intel/oneapi/ippcp/2021.9/lib/:/home/mastania/intel/oneapi/ipp/2021.10/lib/:/home/mastania/intel/oneapi/dpl/2022.3/lib/:/home/mastania/intel/oneapi/dnnl/2024.0/lib/:/home/mastania/intel/oneapi/dal/2024.0/lib/:/home/mastania/intel/oneapi/compiler/2024.0/lib/:/home/mastania/intel/oneapi/ccl/2021.11/lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0d25b' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_0d25b.'
+         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrOxYkt.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_0d25b /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/home/mastania/intel/oneapi/tbb/2021.11/env/../lib/intel64/gcc4.8/../lib -L/home/mastania/intel/oneapi/mpi/2021.11/lib/../lib -L/home/mastania/intel/oneapi/mkl/2024.0/lib/../lib -L/home/mastania/intel/oneapi/ippcp/2021.9/lib/../lib -L/home/mastania/intel/oneapi/ipp/2021.10/lib/../lib -L/home/mastania/intel/oneapi/dpl/2022.3/lib/../lib -L/home/mastania/intel/oneapi/dnnl/2024.0/lib/../lib -L/home/mastania/intel/oneapi/dal/2024.0/lib/../lib -L/home/mastania/intel/oneapi/compiler/2024.0/lib/../lib -L/home/mastania/intel/oneapi/ccl/2021.11/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/mastania/intel/oneapi/tbb/2021.11/env/../lib/intel64/gcc4.8 -L/home/mastania/intel/oneapi/mpi/2021.11/lib -L/home/mastania/intel/oneapi/mkl/2024.0/lib -L/home/mastania/intel/oneapi/ippcp/2021.9/lib -L/home/mastania/intel/oneapi/ipp/2021.10/lib -L/home/mastania/intel/oneapi/dpl/2022.3/lib -L/home/mastania/intel/oneapi/dnnl/2024.0/lib -L/home/mastania/intel/oneapi/dal/2024.0/lib -L/home/mastania/intel/oneapi/compiler/2024.0/lib -L/home/mastania/intel/oneapi/ccl/2021.11/lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_0d25b.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
         collect2 version 11.4.0
-        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4to53L.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_ca3dd /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_ca3dd.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrOxYkt.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_0d25b /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/home/mastania/intel/oneapi/tbb/2021.11/env/../lib/intel64/gcc4.8/../lib -L/home/mastania/intel/oneapi/mpi/2021.11/lib/../lib -L/home/mastania/intel/oneapi/mkl/2024.0/lib/../lib -L/home/mastania/intel/oneapi/ippcp/2021.9/lib/../lib -L/home/mastania/intel/oneapi/ipp/2021.10/lib/../lib -L/home/mastania/intel/oneapi/dpl/2022.3/lib/../lib -L/home/mastania/intel/oneapi/dnnl/2024.0/lib/../lib -L/home/mastania/intel/oneapi/dal/2024.0/lib/../lib -L/home/mastania/intel/oneapi/compiler/2024.0/lib/../lib -L/home/mastania/intel/oneapi/ccl/2021.11/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/mastania/intel/oneapi/tbb/2021.11/env/../lib/intel64/gcc4.8 -L/home/mastania/intel/oneapi/mpi/2021.11/lib -L/home/mastania/intel/oneapi/mkl/2024.0/lib -L/home/mastania/intel/oneapi/ippcp/2021.9/lib -L/home/mastania/intel/oneapi/ipp/2021.10/lib -L/home/mastania/intel/oneapi/dpl/2022.3/lib -L/home/mastania/intel/oneapi/dnnl/2024.0/lib -L/home/mastania/intel/oneapi/dal/2024.0/lib -L/home/mastania/intel/oneapi/compiler/2024.0/lib -L/home/mastania/intel/oneapi/ccl/2021.11/lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_0d25b.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
         GNU ld (GNU Binutils for Ubuntu) 2.38
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ca3dd' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ca3dd.'
-        gmake[1]: Leaving directory '/home/mastania/funjson/build/CMakeFiles/CMakeScratch/TryCompile-RC1jiq'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0d25b' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_0d25b.'
+        gmake[1]: Leaving directory '/home/mastania/FunJson2/FunJson/build/CMakeFiles/CMakeScratch/TryCompile-0xxTK3'
         
       exitCode: 0
   -
@@ -148,16 +160,40 @@ events:
       Parsed C implicit include dir info: rv=done
         found start of include info
         found start of implicit include info
+          add: [/home/mastania/intel/oneapi/tbb/2021.11/env/../include]
+          add: [/home/mastania/intel/oneapi/mpi/2021.11/include]
+          add: [/home/mastania/intel/oneapi/mkl/2024.0/include]
+          add: [/home/mastania/intel/oneapi/ippcp/2021.9/include]
+          add: [/home/mastania/intel/oneapi/ipp/2021.10/include]
+          add: [/home/mastania/intel/oneapi/dpl/2022.3/include]
+          add: [/home/mastania/intel/oneapi/dpcpp-ct/2024.0/include]
+          add: [/home/mastania/intel/oneapi/dnnl/2024.0/include]
+          add: [/home/mastania/intel/oneapi/dev-utilities/2024.0/include]
+          add: [/home/mastania/intel/oneapi/dal/2024.0/include/dal]
+          add: [/home/mastania/intel/oneapi/compiler/2024.0/opt/oclfpga/include]
+          add: [/home/mastania/intel/oneapi/ccl/2021.11/include]
           add: [/usr/lib/gcc/x86_64-linux-gnu/11/include]
           add: [/usr/local/include]
           add: [/usr/include/x86_64-linux-gnu]
           add: [/usr/include]
         end of search list found
+        collapse include dir [/home/mastania/intel/oneapi/tbb/2021.11/env/../include] ==> [/home/mastania/intel/oneapi/tbb/2021.11/include]
+        collapse include dir [/home/mastania/intel/oneapi/mpi/2021.11/include] ==> [/home/mastania/intel/oneapi/mpi/2021.11/include]
+        collapse include dir [/home/mastania/intel/oneapi/mkl/2024.0/include] ==> [/home/mastania/intel/oneapi/mkl/2024.0/include]
+        collapse include dir [/home/mastania/intel/oneapi/ippcp/2021.9/include] ==> [/home/mastania/intel/oneapi/ippcp/2021.9/include]
+        collapse include dir [/home/mastania/intel/oneapi/ipp/2021.10/include] ==> [/home/mastania/intel/oneapi/ipp/2021.10/include]
+        collapse include dir [/home/mastania/intel/oneapi/dpl/2022.3/include] ==> [/home/mastania/intel/oneapi/dpl/2022.3/include]
+        collapse include dir [/home/mastania/intel/oneapi/dpcpp-ct/2024.0/include] ==> [/home/mastania/intel/oneapi/dpcpp-ct/2024.0/include]
+        collapse include dir [/home/mastania/intel/oneapi/dnnl/2024.0/include] ==> [/home/mastania/intel/oneapi/dnnl/2024.0/include]
+        collapse include dir [/home/mastania/intel/oneapi/dev-utilities/2024.0/include] ==> [/home/mastania/intel/oneapi/dev-utilities/2024.0/include]
+        collapse include dir [/home/mastania/intel/oneapi/dal/2024.0/include/dal] ==> [/home/mastania/intel/oneapi/dal/2024.0/include/dal]
+        collapse include dir [/home/mastania/intel/oneapi/compiler/2024.0/opt/oclfpga/include] ==> [/home/mastania/intel/oneapi/compiler/2024.0/opt/oclfpga/include]
+        collapse include dir [/home/mastania/intel/oneapi/ccl/2021.11/include] ==> [/home/mastania/intel/oneapi/ccl/2021.11/include]
         collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/include]
         collapse include dir [/usr/local/include] ==> [/usr/local/include]
         collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
         collapse include dir [/usr/include] ==> [/usr/include]
-        implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+        implicit include dirs: [/home/mastania/intel/oneapi/tbb/2021.11/include;/home/mastania/intel/oneapi/mpi/2021.11/include;/home/mastania/intel/oneapi/mkl/2024.0/include;/home/mastania/intel/oneapi/ippcp/2021.9/include;/home/mastania/intel/oneapi/ipp/2021.10/include;/home/mastania/intel/oneapi/dpl/2022.3/include;/home/mastania/intel/oneapi/dpcpp-ct/2024.0/include;/home/mastania/intel/oneapi/dnnl/2024.0/include;/home/mastania/intel/oneapi/dev-utilities/2024.0/include;/home/mastania/intel/oneapi/dal/2024.0/include/dal;/home/mastania/intel/oneapi/compiler/2024.0/opt/oclfpga/include;/home/mastania/intel/oneapi/ccl/2021.11/include;/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
       
       
   -
@@ -170,13 +206,13 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: '/home/mastania/funjson/build/CMakeFiles/CMakeScratch/TryCompile-RC1jiq']
+        ignore line: [Change Dir: '/home/mastania/FunJson2/FunJson/build/CMakeFiles/CMakeScratch/TryCompile-0xxTK3']
         ignore line: []
-        ignore line: [Run Build Command(s): /home/mastania/envs/cmake-3.29.3-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ca3dd/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_ca3dd.dir/build.make CMakeFiles/cmTC_ca3dd.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/mastania/funjson/build/CMakeFiles/CMakeScratch/TryCompile-RC1jiq']
-        ignore line: [Building C object CMakeFiles/cmTC_ca3dd.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_ca3dd.dir/CMakeCCompilerABI.c.o -c /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /home/mastania/envs/cmake-3.29.3-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0d25b/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_0d25b.dir/build.make CMakeFiles/cmTC_0d25b.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/mastania/FunJson2/FunJson/build/CMakeFiles/CMakeScratch/TryCompile-0xxTK3']
+        ignore line: [Building C object CMakeFiles/cmTC_0d25b.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_0d25b.dir/CMakeCCompilerABI.c.o -c /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -186,8 +222,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ca3dd.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ca3dd.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_ca3dd.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc8FH0wb.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0d25b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0d25b.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_0d25b.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccuumCOQ.s]
         ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
         ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
         ignore line: []
@@ -197,6 +233,18 @@ events:
         ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
         ignore line: [#include "..." search starts here:]
         ignore line: [#include <...> search starts here:]
+        ignore line: [ /home/mastania/intel/oneapi/tbb/2021.11/env/../include]
+        ignore line: [ /home/mastania/intel/oneapi/mpi/2021.11/include]
+        ignore line: [ /home/mastania/intel/oneapi/mkl/2024.0/include]
+        ignore line: [ /home/mastania/intel/oneapi/ippcp/2021.9/include]
+        ignore line: [ /home/mastania/intel/oneapi/ipp/2021.10/include]
+        ignore line: [ /home/mastania/intel/oneapi/dpl/2022.3/include]
+        ignore line: [ /home/mastania/intel/oneapi/dpcpp-ct/2024.0/include]
+        ignore line: [ /home/mastania/intel/oneapi/dnnl/2024.0/include]
+        ignore line: [ /home/mastania/intel/oneapi/dev-utilities/2024.0/include]
+        ignore line: [ /home/mastania/intel/oneapi/dal/2024.0/include/dal]
+        ignore line: [ /home/mastania/intel/oneapi/compiler/2024.0/opt/oclfpga/include]
+        ignore line: [ /home/mastania/intel/oneapi/ccl/2021.11/include]
         ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/include]
         ignore line: [ /usr/local/include]
         ignore line: [ /usr/include/x86_64-linux-gnu]
@@ -207,15 +255,15 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: 50eaa2331df977b8016186198deb2d18]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ca3dd.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ca3dd.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_ca3dd.dir/CMakeCCompilerABI.c.o /tmp/cc8FH0wb.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0d25b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0d25b.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_0d25b.dir/CMakeCCompilerABI.c.o /tmp/ccuumCOQ.s]
         ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
-        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ca3dd.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ca3dd.dir/CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_ca3dd]
-        ignore line: [/home/mastania/envs/cmake-3.29.3-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca3dd.dir/link.txt --verbose=1]
-        ignore line: [/usr/bin/cc  -v -Wl -v CMakeFiles/cmTC_ca3dd.dir/CMakeCCompilerABI.c.o -o cmTC_ca3dd]
+        ignore line: [LIBRARY_PATH=/home/mastania/intel/oneapi/tbb/2021.11/env/../lib/intel64/gcc4.8/../lib/:/home/mastania/intel/oneapi/mpi/2021.11/lib/../lib/:/home/mastania/intel/oneapi/mkl/2024.0/lib/../lib/:/home/mastania/intel/oneapi/ippcp/2021.9/lib/../lib/:/home/mastania/intel/oneapi/ipp/2021.10/lib/../lib/:/home/mastania/intel/oneapi/dpl/2022.3/lib/../lib/:/home/mastania/intel/oneapi/dnnl/2024.0/lib/../lib/:/home/mastania/intel/oneapi/dal/2024.0/lib/../lib/:/home/mastania/intel/oneapi/compiler/2024.0/lib/../lib/:/home/mastania/intel/oneapi/ccl/2021.11/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/mastania/intel/oneapi/tbb/2021.11/env/../lib/intel64/gcc4.8/:/home/mastania/intel/oneapi/mpi/2021.11/lib/:/home/mastania/intel/oneapi/mkl/2024.0/lib/:/home/mastania/intel/oneapi/ippcp/2021.9/lib/:/home/mastania/intel/oneapi/ipp/2021.10/lib/:/home/mastania/intel/oneapi/dpl/2022.3/lib/:/home/mastania/intel/oneapi/dnnl/2024.0/lib/:/home/mastania/intel/oneapi/dal/2024.0/lib/:/home/mastania/intel/oneapi/compiler/2024.0/lib/:/home/mastania/intel/oneapi/ccl/2021.11/lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0d25b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0d25b.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_0d25b]
+        ignore line: [/home/mastania/envs/cmake-3.29.3-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d25b.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/cc  -v -Wl -v CMakeFiles/cmTC_0d25b.dir/CMakeCCompilerABI.c.o -o cmTC_0d25b]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
@@ -227,14 +275,14 @@ events:
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
-        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ca3dd' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ca3dd.']
-        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4to53L.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_ca3dd /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_ca3dd.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [LIBRARY_PATH=/home/mastania/intel/oneapi/tbb/2021.11/env/../lib/intel64/gcc4.8/../lib/:/home/mastania/intel/oneapi/mpi/2021.11/lib/../lib/:/home/mastania/intel/oneapi/mkl/2024.0/lib/../lib/:/home/mastania/intel/oneapi/ippcp/2021.9/lib/../lib/:/home/mastania/intel/oneapi/ipp/2021.10/lib/../lib/:/home/mastania/intel/oneapi/dpl/2022.3/lib/../lib/:/home/mastania/intel/oneapi/dnnl/2024.0/lib/../lib/:/home/mastania/intel/oneapi/dal/2024.0/lib/../lib/:/home/mastania/intel/oneapi/compiler/2024.0/lib/../lib/:/home/mastania/intel/oneapi/ccl/2021.11/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/mastania/intel/oneapi/tbb/2021.11/env/../lib/intel64/gcc4.8/:/home/mastania/intel/oneapi/mpi/2021.11/lib/:/home/mastania/intel/oneapi/mkl/2024.0/lib/:/home/mastania/intel/oneapi/ippcp/2021.9/lib/:/home/mastania/intel/oneapi/ipp/2021.10/lib/:/home/mastania/intel/oneapi/dpl/2022.3/lib/:/home/mastania/intel/oneapi/dnnl/2024.0/lib/:/home/mastania/intel/oneapi/dal/2024.0/lib/:/home/mastania/intel/oneapi/compiler/2024.0/lib/:/home/mastania/intel/oneapi/ccl/2021.11/lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0d25b' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_0d25b.']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrOxYkt.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_0d25b /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/home/mastania/intel/oneapi/tbb/2021.11/env/../lib/intel64/gcc4.8/../lib -L/home/mastania/intel/oneapi/mpi/2021.11/lib/../lib -L/home/mastania/intel/oneapi/mkl/2024.0/lib/../lib -L/home/mastania/intel/oneapi/ippcp/2021.9/lib/../lib -L/home/mastania/intel/oneapi/ipp/2021.10/lib/../lib -L/home/mastania/intel/oneapi/dpl/2022.3/lib/../lib -L/home/mastania/intel/oneapi/dnnl/2024.0/lib/../lib -L/home/mastania/intel/oneapi/dal/2024.0/lib/../lib -L/home/mastania/intel/oneapi/compiler/2024.0/lib/../lib -L/home/mastania/intel/oneapi/ccl/2021.11/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/mastania/intel/oneapi/tbb/2021.11/env/../lib/intel64/gcc4.8 -L/home/mastania/intel/oneapi/mpi/2021.11/lib -L/home/mastania/intel/oneapi/mkl/2024.0/lib -L/home/mastania/intel/oneapi/ippcp/2021.9/lib -L/home/mastania/intel/oneapi/ipp/2021.10/lib -L/home/mastania/intel/oneapi/dpl/2022.3/lib -L/home/mastania/intel/oneapi/dnnl/2024.0/lib -L/home/mastania/intel/oneapi/dal/2024.0/lib -L/home/mastania/intel/oneapi/compiler/2024.0/lib -L/home/mastania/intel/oneapi/ccl/2021.11/lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_0d25b.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/cc4to53L.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccrOxYkt.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -252,10 +300,20 @@ events:
           arg [-znow] ==> ignore
           arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_ca3dd] ==> ignore
+          arg [cmTC_0d25b] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+          arg [-L/home/mastania/intel/oneapi/tbb/2021.11/env/../lib/intel64/gcc4.8/../lib] ==> dir [/home/mastania/intel/oneapi/tbb/2021.11/env/../lib/intel64/gcc4.8/../lib]
+          arg [-L/home/mastania/intel/oneapi/mpi/2021.11/lib/../lib] ==> dir [/home/mastania/intel/oneapi/mpi/2021.11/lib/../lib]
+          arg [-L/home/mastania/intel/oneapi/mkl/2024.0/lib/../lib] ==> dir [/home/mastania/intel/oneapi/mkl/2024.0/lib/../lib]
+          arg [-L/home/mastania/intel/oneapi/ippcp/2021.9/lib/../lib] ==> dir [/home/mastania/intel/oneapi/ippcp/2021.9/lib/../lib]
+          arg [-L/home/mastania/intel/oneapi/ipp/2021.10/lib/../lib] ==> dir [/home/mastania/intel/oneapi/ipp/2021.10/lib/../lib]
+          arg [-L/home/mastania/intel/oneapi/dpl/2022.3/lib/../lib] ==> dir [/home/mastania/intel/oneapi/dpl/2022.3/lib/../lib]
+          arg [-L/home/mastania/intel/oneapi/dnnl/2024.0/lib/../lib] ==> dir [/home/mastania/intel/oneapi/dnnl/2024.0/lib/../lib]
+          arg [-L/home/mastania/intel/oneapi/dal/2024.0/lib/../lib] ==> dir [/home/mastania/intel/oneapi/dal/2024.0/lib/../lib]
+          arg [-L/home/mastania/intel/oneapi/compiler/2024.0/lib/../lib] ==> dir [/home/mastania/intel/oneapi/compiler/2024.0/lib/../lib]
+          arg [-L/home/mastania/intel/oneapi/ccl/2021.11/lib/../lib] ==> dir [/home/mastania/intel/oneapi/ccl/2021.11/lib/../lib]
           arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
           arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
           arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
@@ -263,9 +321,19 @@ events:
           arg [-L/lib/../lib] ==> dir [/lib/../lib]
           arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/home/mastania/intel/oneapi/tbb/2021.11/env/../lib/intel64/gcc4.8] ==> dir [/home/mastania/intel/oneapi/tbb/2021.11/env/../lib/intel64/gcc4.8]
+          arg [-L/home/mastania/intel/oneapi/mpi/2021.11/lib] ==> dir [/home/mastania/intel/oneapi/mpi/2021.11/lib]
+          arg [-L/home/mastania/intel/oneapi/mkl/2024.0/lib] ==> dir [/home/mastania/intel/oneapi/mkl/2024.0/lib]
+          arg [-L/home/mastania/intel/oneapi/ippcp/2021.9/lib] ==> dir [/home/mastania/intel/oneapi/ippcp/2021.9/lib]
+          arg [-L/home/mastania/intel/oneapi/ipp/2021.10/lib] ==> dir [/home/mastania/intel/oneapi/ipp/2021.10/lib]
+          arg [-L/home/mastania/intel/oneapi/dpl/2022.3/lib] ==> dir [/home/mastania/intel/oneapi/dpl/2022.3/lib]
+          arg [-L/home/mastania/intel/oneapi/dnnl/2024.0/lib] ==> dir [/home/mastania/intel/oneapi/dnnl/2024.0/lib]
+          arg [-L/home/mastania/intel/oneapi/dal/2024.0/lib] ==> dir [/home/mastania/intel/oneapi/dal/2024.0/lib]
+          arg [-L/home/mastania/intel/oneapi/compiler/2024.0/lib] ==> dir [/home/mastania/intel/oneapi/compiler/2024.0/lib]
+          arg [-L/home/mastania/intel/oneapi/ccl/2021.11/lib] ==> dir [/home/mastania/intel/oneapi/ccl/2021.11/lib]
           arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_ca3dd.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_0d25b.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [--push-state] ==> ignore
           arg [--as-needed] ==> ignore
@@ -280,11 +348,21 @@ events:
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
         ignore line: [collect2 version 11.4.0]
-        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4to53L.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_ca3dd /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_ca3dd.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrOxYkt.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_0d25b /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/home/mastania/intel/oneapi/tbb/2021.11/env/../lib/intel64/gcc4.8/../lib -L/home/mastania/intel/oneapi/mpi/2021.11/lib/../lib -L/home/mastania/intel/oneapi/mkl/2024.0/lib/../lib -L/home/mastania/intel/oneapi/ippcp/2021.9/lib/../lib -L/home/mastania/intel/oneapi/ipp/2021.10/lib/../lib -L/home/mastania/intel/oneapi/dpl/2022.3/lib/../lib -L/home/mastania/intel/oneapi/dnnl/2024.0/lib/../lib -L/home/mastania/intel/oneapi/dal/2024.0/lib/../lib -L/home/mastania/intel/oneapi/compiler/2024.0/lib/../lib -L/home/mastania/intel/oneapi/ccl/2021.11/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/mastania/intel/oneapi/tbb/2021.11/env/../lib/intel64/gcc4.8 -L/home/mastania/intel/oneapi/mpi/2021.11/lib -L/home/mastania/intel/oneapi/mkl/2024.0/lib -L/home/mastania/intel/oneapi/ippcp/2021.9/lib -L/home/mastania/intel/oneapi/ipp/2021.10/lib -L/home/mastania/intel/oneapi/dpl/2022.3/lib -L/home/mastania/intel/oneapi/dnnl/2024.0/lib -L/home/mastania/intel/oneapi/dal/2024.0/lib -L/home/mastania/intel/oneapi/compiler/2024.0/lib -L/home/mastania/intel/oneapi/ccl/2021.11/lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_0d25b.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
         linker tool for 'C': /usr/bin/ld
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/home/mastania/intel/oneapi/tbb/2021.11/env/../lib/intel64/gcc4.8/../lib] ==> [/home/mastania/intel/oneapi/tbb/2021.11/lib/intel64/lib]
+        collapse library dir [/home/mastania/intel/oneapi/mpi/2021.11/lib/../lib] ==> [/home/mastania/intel/oneapi/mpi/2021.11/lib]
+        collapse library dir [/home/mastania/intel/oneapi/mkl/2024.0/lib/../lib] ==> [/home/mastania/intel/oneapi/mkl/2024.0/lib]
+        collapse library dir [/home/mastania/intel/oneapi/ippcp/2021.9/lib/../lib] ==> [/home/mastania/intel/oneapi/ippcp/2021.9/lib]
+        collapse library dir [/home/mastania/intel/oneapi/ipp/2021.10/lib/../lib] ==> [/home/mastania/intel/oneapi/ipp/2021.10/lib]
+        collapse library dir [/home/mastania/intel/oneapi/dpl/2022.3/lib/../lib] ==> [/home/mastania/intel/oneapi/dpl/2022.3/lib]
+        collapse library dir [/home/mastania/intel/oneapi/dnnl/2024.0/lib/../lib] ==> [/home/mastania/intel/oneapi/dnnl/2024.0/lib]
+        collapse library dir [/home/mastania/intel/oneapi/dal/2024.0/lib/../lib] ==> [/home/mastania/intel/oneapi/dal/2024.0/lib]
+        collapse library dir [/home/mastania/intel/oneapi/compiler/2024.0/lib/../lib] ==> [/home/mastania/intel/oneapi/compiler/2024.0/lib]
+        collapse library dir [/home/mastania/intel/oneapi/ccl/2021.11/lib/../lib] ==> [/home/mastania/intel/oneapi/ccl/2021.11/lib]
         collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
         collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
         collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
@@ -292,10 +370,20 @@ events:
         collapse library dir [/lib/../lib] ==> [/lib]
         collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
         collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/home/mastania/intel/oneapi/tbb/2021.11/env/../lib/intel64/gcc4.8] ==> [/home/mastania/intel/oneapi/tbb/2021.11/lib/intel64/gcc4.8]
+        collapse library dir [/home/mastania/intel/oneapi/mpi/2021.11/lib] ==> [/home/mastania/intel/oneapi/mpi/2021.11/lib]
+        collapse library dir [/home/mastania/intel/oneapi/mkl/2024.0/lib] ==> [/home/mastania/intel/oneapi/mkl/2024.0/lib]
+        collapse library dir [/home/mastania/intel/oneapi/ippcp/2021.9/lib] ==> [/home/mastania/intel/oneapi/ippcp/2021.9/lib]
+        collapse library dir [/home/mastania/intel/oneapi/ipp/2021.10/lib] ==> [/home/mastania/intel/oneapi/ipp/2021.10/lib]
+        collapse library dir [/home/mastania/intel/oneapi/dpl/2022.3/lib] ==> [/home/mastania/intel/oneapi/dpl/2022.3/lib]
+        collapse library dir [/home/mastania/intel/oneapi/dnnl/2024.0/lib] ==> [/home/mastania/intel/oneapi/dnnl/2024.0/lib]
+        collapse library dir [/home/mastania/intel/oneapi/dal/2024.0/lib] ==> [/home/mastania/intel/oneapi/dal/2024.0/lib]
+        collapse library dir [/home/mastania/intel/oneapi/compiler/2024.0/lib] ==> [/home/mastania/intel/oneapi/compiler/2024.0/lib]
+        collapse library dir [/home/mastania/intel/oneapi/ccl/2021.11/lib] ==> [/home/mastania/intel/oneapi/ccl/2021.11/lib]
         collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
         implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
         implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
-        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit dirs: [/home/mastania/intel/oneapi/tbb/2021.11/lib/intel64/lib;/home/mastania/intel/oneapi/mpi/2021.11/lib;/home/mastania/intel/oneapi/mkl/2024.0/lib;/home/mastania/intel/oneapi/ippcp/2021.9/lib;/home/mastania/intel/oneapi/ipp/2021.10/lib;/home/mastania/intel/oneapi/dpl/2022.3/lib;/home/mastania/intel/oneapi/dnnl/2024.0/lib;/home/mastania/intel/oneapi/dal/2024.0/lib;/home/mastania/intel/oneapi/compiler/2024.0/lib;/home/mastania/intel/oneapi/ccl/2021.11/lib;/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib;/home/mastania/intel/oneapi/tbb/2021.11/lib/intel64/gcc4.8]
         implicit fwks: []
       
       
@@ -318,8 +406,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/mastania/funjson/build/CMakeFiles/CMakeScratch/TryCompile-P2WFpY"
-      binary: "/home/mastania/funjson/build/CMakeFiles/CMakeScratch/TryCompile-P2WFpY"
+      source: "/home/mastania/FunJson2/FunJson/build/CMakeFiles/CMakeScratch/TryCompile-Y4XtuB"
+      binary: "/home/mastania/FunJson2/FunJson/build/CMakeFiles/CMakeScratch/TryCompile-Y4XtuB"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -329,13 +417,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/mastania/funjson/build/CMakeFiles/CMakeScratch/TryCompile-P2WFpY'
+        Change Dir: '/home/mastania/FunJson2/FunJson/build/CMakeFiles/CMakeScratch/TryCompile-Y4XtuB'
         
-        Run Build Command(s): /home/mastania/envs/cmake-3.29.3-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d7bc3/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_d7bc3.dir/build.make CMakeFiles/cmTC_d7bc3.dir/build
-        gmake[1]: Entering directory '/home/mastania/funjson/build/CMakeFiles/CMakeScratch/TryCompile-P2WFpY'
-        Building CXX object CMakeFiles/cmTC_d7bc3.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -v -o CMakeFiles/cmTC_d7bc3.dir/CMakeCXXCompilerABI.cpp.o -c /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /home/mastania/envs/cmake-3.29.3-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_db443/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_db443.dir/build.make CMakeFiles/cmTC_db443.dir/build
+        gmake[1]: Entering directory '/home/mastania/FunJson2/FunJson/build/CMakeFiles/CMakeScratch/TryCompile-Y4XtuB'
+        Building CXX object CMakeFiles/cmTC_db443.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_db443.dir/CMakeCXXCompilerABI.cpp.o -c /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -345,8 +433,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d7bc3.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d7bc3.dir/'
-         /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_d7bc3.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc1yJE3V.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_db443.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_db443.dir/'
+         /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_db443.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc7p0UfG.s
         GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
         	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
         
@@ -357,6 +445,18 @@ events:
         ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
         #include "..." search starts here:
         #include <...> search starts here:
+         /home/mastania/intel/oneapi/tbb/2021.11/env/../include
+         /home/mastania/intel/oneapi/mpi/2021.11/include
+         /home/mastania/intel/oneapi/mkl/2024.0/include
+         /home/mastania/intel/oneapi/ippcp/2021.9/include
+         /home/mastania/intel/oneapi/ipp/2021.10/include
+         /home/mastania/intel/oneapi/dpl/2022.3/include
+         /home/mastania/intel/oneapi/dpcpp-ct/2024.0/include
+         /home/mastania/intel/oneapi/dnnl/2024.0/include
+         /home/mastania/intel/oneapi/dev-utilities/2024.0/include
+         /home/mastania/intel/oneapi/dal/2024.0/include/dal
+         /home/mastania/intel/oneapi/compiler/2024.0/opt/oclfpga/include
+         /home/mastania/intel/oneapi/ccl/2021.11/include
          /usr/include/c++/11
          /usr/include/x86_64-linux-gnu/c++/11
          /usr/include/c++/11/backward
@@ -370,15 +470,15 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: d591828bb4d392ae8b7b160e5bb0b95f
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d7bc3.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d7bc3.dir/'
-         as -v --64 -o CMakeFiles/cmTC_d7bc3.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc1yJE3V.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_db443.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_db443.dir/'
+         as -v --64 -o CMakeFiles/cmTC_db443.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc7p0UfG.s
         GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
         COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
-        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d7bc3.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d7bc3.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_d7bc3
-        /home/mastania/envs/cmake-3.29.3-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7bc3.dir/link.txt --verbose=1
-        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_d7bc3.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_d7bc3
+        LIBRARY_PATH=/home/mastania/intel/oneapi/tbb/2021.11/env/../lib/intel64/gcc4.8/../lib/:/home/mastania/intel/oneapi/mpi/2021.11/lib/../lib/:/home/mastania/intel/oneapi/mkl/2024.0/lib/../lib/:/home/mastania/intel/oneapi/ippcp/2021.9/lib/../lib/:/home/mastania/intel/oneapi/ipp/2021.10/lib/../lib/:/home/mastania/intel/oneapi/dpl/2022.3/lib/../lib/:/home/mastania/intel/oneapi/dnnl/2024.0/lib/../lib/:/home/mastania/intel/oneapi/dal/2024.0/lib/../lib/:/home/mastania/intel/oneapi/compiler/2024.0/lib/../lib/:/home/mastania/intel/oneapi/ccl/2021.11/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/mastania/intel/oneapi/tbb/2021.11/env/../lib/intel64/gcc4.8/:/home/mastania/intel/oneapi/mpi/2021.11/lib/:/home/mastania/intel/oneapi/mkl/2024.0/lib/:/home/mastania/intel/oneapi/ippcp/2021.9/lib/:/home/mastania/intel/oneapi/ipp/2021.10/lib/:/home/mastania/intel/oneapi/dpl/2022.3/lib/:/home/mastania/intel/oneapi/dnnl/2024.0/lib/:/home/mastania/intel/oneapi/dal/2024.0/lib/:/home/mastania/intel/oneapi/compiler/2024.0/lib/:/home/mastania/intel/oneapi/ccl/2021.11/lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_db443.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_db443.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_db443
+        /home/mastania/envs/cmake-3.29.3-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db443.dir/link.txt --verbose=1
+        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_db443.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_db443
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
@@ -390,14 +490,14 @@ events:
         Supported LTO compression algorithms: zlib zstd
         gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
         COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
-        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d7bc3' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d7bc3.'
-         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccr5YCZm.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_d7bc3 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_d7bc3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+        LIBRARY_PATH=/home/mastania/intel/oneapi/tbb/2021.11/env/../lib/intel64/gcc4.8/../lib/:/home/mastania/intel/oneapi/mpi/2021.11/lib/../lib/:/home/mastania/intel/oneapi/mkl/2024.0/lib/../lib/:/home/mastania/intel/oneapi/ippcp/2021.9/lib/../lib/:/home/mastania/intel/oneapi/ipp/2021.10/lib/../lib/:/home/mastania/intel/oneapi/dpl/2022.3/lib/../lib/:/home/mastania/intel/oneapi/dnnl/2024.0/lib/../lib/:/home/mastania/intel/oneapi/dal/2024.0/lib/../lib/:/home/mastania/intel/oneapi/compiler/2024.0/lib/../lib/:/home/mastania/intel/oneapi/ccl/2021.11/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/mastania/intel/oneapi/tbb/2021.11/env/../lib/intel64/gcc4.8/:/home/mastania/intel/oneapi/mpi/2021.11/lib/:/home/mastania/intel/oneapi/mkl/2024.0/lib/:/home/mastania/intel/oneapi/ippcp/2021.9/lib/:/home/mastania/intel/oneapi/ipp/2021.10/lib/:/home/mastania/intel/oneapi/dpl/2022.3/lib/:/home/mastania/intel/oneapi/dnnl/2024.0/lib/:/home/mastania/intel/oneapi/dal/2024.0/lib/:/home/mastania/intel/oneapi/compiler/2024.0/lib/:/home/mastania/intel/oneapi/ccl/2021.11/lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_db443' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_db443.'
+         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccLMobh0.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_db443 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/home/mastania/intel/oneapi/tbb/2021.11/env/../lib/intel64/gcc4.8/../lib -L/home/mastania/intel/oneapi/mpi/2021.11/lib/../lib -L/home/mastania/intel/oneapi/mkl/2024.0/lib/../lib -L/home/mastania/intel/oneapi/ippcp/2021.9/lib/../lib -L/home/mastania/intel/oneapi/ipp/2021.10/lib/../lib -L/home/mastania/intel/oneapi/dpl/2022.3/lib/../lib -L/home/mastania/intel/oneapi/dnnl/2024.0/lib/../lib -L/home/mastania/intel/oneapi/dal/2024.0/lib/../lib -L/home/mastania/intel/oneapi/compiler/2024.0/lib/../lib -L/home/mastania/intel/oneapi/ccl/2021.11/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/mastania/intel/oneapi/tbb/2021.11/env/../lib/intel64/gcc4.8 -L/home/mastania/intel/oneapi/mpi/2021.11/lib -L/home/mastania/intel/oneapi/mkl/2024.0/lib -L/home/mastania/intel/oneapi/ippcp/2021.9/lib -L/home/mastania/intel/oneapi/ipp/2021.10/lib -L/home/mastania/intel/oneapi/dpl/2022.3/lib -L/home/mastania/intel/oneapi/dnnl/2024.0/lib -L/home/mastania/intel/oneapi/dal/2024.0/lib -L/home/mastania/intel/oneapi/compiler/2024.0/lib -L/home/mastania/intel/oneapi/ccl/2021.11/lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_db443.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
         collect2 version 11.4.0
-        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccr5YCZm.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_d7bc3 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_d7bc3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccLMobh0.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_db443 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/home/mastania/intel/oneapi/tbb/2021.11/env/../lib/intel64/gcc4.8/../lib -L/home/mastania/intel/oneapi/mpi/2021.11/lib/../lib -L/home/mastania/intel/oneapi/mkl/2024.0/lib/../lib -L/home/mastania/intel/oneapi/ippcp/2021.9/lib/../lib -L/home/mastania/intel/oneapi/ipp/2021.10/lib/../lib -L/home/mastania/intel/oneapi/dpl/2022.3/lib/../lib -L/home/mastania/intel/oneapi/dnnl/2024.0/lib/../lib -L/home/mastania/intel/oneapi/dal/2024.0/lib/../lib -L/home/mastania/intel/oneapi/compiler/2024.0/lib/../lib -L/home/mastania/intel/oneapi/ccl/2021.11/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/mastania/intel/oneapi/tbb/2021.11/env/../lib/intel64/gcc4.8 -L/home/mastania/intel/oneapi/mpi/2021.11/lib -L/home/mastania/intel/oneapi/mkl/2024.0/lib -L/home/mastania/intel/oneapi/ippcp/2021.9/lib -L/home/mastania/intel/oneapi/ipp/2021.10/lib -L/home/mastania/intel/oneapi/dpl/2022.3/lib -L/home/mastania/intel/oneapi/dnnl/2024.0/lib -L/home/mastania/intel/oneapi/dal/2024.0/lib -L/home/mastania/intel/oneapi/compiler/2024.0/lib -L/home/mastania/intel/oneapi/ccl/2021.11/lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_db443.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
         GNU ld (GNU Binutils for Ubuntu) 2.38
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d7bc3' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d7bc3.'
-        gmake[1]: Leaving directory '/home/mastania/funjson/build/CMakeFiles/CMakeScratch/TryCompile-P2WFpY'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_db443' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_db443.'
+        gmake[1]: Leaving directory '/home/mastania/FunJson2/FunJson/build/CMakeFiles/CMakeScratch/TryCompile-Y4XtuB'
         
       exitCode: 0
   -
@@ -410,6 +510,18 @@ events:
       Parsed CXX implicit include dir info: rv=done
         found start of include info
         found start of implicit include info
+          add: [/home/mastania/intel/oneapi/tbb/2021.11/env/../include]
+          add: [/home/mastania/intel/oneapi/mpi/2021.11/include]
+          add: [/home/mastania/intel/oneapi/mkl/2024.0/include]
+          add: [/home/mastania/intel/oneapi/ippcp/2021.9/include]
+          add: [/home/mastania/intel/oneapi/ipp/2021.10/include]
+          add: [/home/mastania/intel/oneapi/dpl/2022.3/include]
+          add: [/home/mastania/intel/oneapi/dpcpp-ct/2024.0/include]
+          add: [/home/mastania/intel/oneapi/dnnl/2024.0/include]
+          add: [/home/mastania/intel/oneapi/dev-utilities/2024.0/include]
+          add: [/home/mastania/intel/oneapi/dal/2024.0/include/dal]
+          add: [/home/mastania/intel/oneapi/compiler/2024.0/opt/oclfpga/include]
+          add: [/home/mastania/intel/oneapi/ccl/2021.11/include]
           add: [/usr/include/c++/11]
           add: [/usr/include/x86_64-linux-gnu/c++/11]
           add: [/usr/include/c++/11/backward]
@@ -418,6 +530,18 @@ events:
           add: [/usr/include/x86_64-linux-gnu]
           add: [/usr/include]
         end of search list found
+        collapse include dir [/home/mastania/intel/oneapi/tbb/2021.11/env/../include] ==> [/home/mastania/intel/oneapi/tbb/2021.11/include]
+        collapse include dir [/home/mastania/intel/oneapi/mpi/2021.11/include] ==> [/home/mastania/intel/oneapi/mpi/2021.11/include]
+        collapse include dir [/home/mastania/intel/oneapi/mkl/2024.0/include] ==> [/home/mastania/intel/oneapi/mkl/2024.0/include]
+        collapse include dir [/home/mastania/intel/oneapi/ippcp/2021.9/include] ==> [/home/mastania/intel/oneapi/ippcp/2021.9/include]
+        collapse include dir [/home/mastania/intel/oneapi/ipp/2021.10/include] ==> [/home/mastania/intel/oneapi/ipp/2021.10/include]
+        collapse include dir [/home/mastania/intel/oneapi/dpl/2022.3/include] ==> [/home/mastania/intel/oneapi/dpl/2022.3/include]
+        collapse include dir [/home/mastania/intel/oneapi/dpcpp-ct/2024.0/include] ==> [/home/mastania/intel/oneapi/dpcpp-ct/2024.0/include]
+        collapse include dir [/home/mastania/intel/oneapi/dnnl/2024.0/include] ==> [/home/mastania/intel/oneapi/dnnl/2024.0/include]
+        collapse include dir [/home/mastania/intel/oneapi/dev-utilities/2024.0/include] ==> [/home/mastania/intel/oneapi/dev-utilities/2024.0/include]
+        collapse include dir [/home/mastania/intel/oneapi/dal/2024.0/include/dal] ==> [/home/mastania/intel/oneapi/dal/2024.0/include/dal]
+        collapse include dir [/home/mastania/intel/oneapi/compiler/2024.0/opt/oclfpga/include] ==> [/home/mastania/intel/oneapi/compiler/2024.0/opt/oclfpga/include]
+        collapse include dir [/home/mastania/intel/oneapi/ccl/2021.11/include] ==> [/home/mastania/intel/oneapi/ccl/2021.11/include]
         collapse include dir [/usr/include/c++/11] ==> [/usr/include/c++/11]
         collapse include dir [/usr/include/x86_64-linux-gnu/c++/11] ==> [/usr/include/x86_64-linux-gnu/c++/11]
         collapse include dir [/usr/include/c++/11/backward] ==> [/usr/include/c++/11/backward]
@@ -425,7 +549,7 @@ events:
         collapse include dir [/usr/local/include] ==> [/usr/local/include]
         collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
         collapse include dir [/usr/include] ==> [/usr/include]
-        implicit include dirs: [/usr/include/c++/11;/usr/include/x86_64-linux-gnu/c++/11;/usr/include/c++/11/backward;/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+        implicit include dirs: [/home/mastania/intel/oneapi/tbb/2021.11/include;/home/mastania/intel/oneapi/mpi/2021.11/include;/home/mastania/intel/oneapi/mkl/2024.0/include;/home/mastania/intel/oneapi/ippcp/2021.9/include;/home/mastania/intel/oneapi/ipp/2021.10/include;/home/mastania/intel/oneapi/dpl/2022.3/include;/home/mastania/intel/oneapi/dpcpp-ct/2024.0/include;/home/mastania/intel/oneapi/dnnl/2024.0/include;/home/mastania/intel/oneapi/dev-utilities/2024.0/include;/home/mastania/intel/oneapi/dal/2024.0/include/dal;/home/mastania/intel/oneapi/compiler/2024.0/opt/oclfpga/include;/home/mastania/intel/oneapi/ccl/2021.11/include;/usr/include/c++/11;/usr/include/x86_64-linux-gnu/c++/11;/usr/include/c++/11/backward;/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
       
       
   -
@@ -438,13 +562,13 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: '/home/mastania/funjson/build/CMakeFiles/CMakeScratch/TryCompile-P2WFpY']
+        ignore line: [Change Dir: '/home/mastania/FunJson2/FunJson/build/CMakeFiles/CMakeScratch/TryCompile-Y4XtuB']
         ignore line: []
-        ignore line: [Run Build Command(s): /home/mastania/envs/cmake-3.29.3-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d7bc3/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_d7bc3.dir/build.make CMakeFiles/cmTC_d7bc3.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/mastania/funjson/build/CMakeFiles/CMakeScratch/TryCompile-P2WFpY']
-        ignore line: [Building CXX object CMakeFiles/cmTC_d7bc3.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_d7bc3.dir/CMakeCXXCompilerABI.cpp.o -c /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /home/mastania/envs/cmake-3.29.3-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_db443/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_db443.dir/build.make CMakeFiles/cmTC_db443.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/mastania/FunJson2/FunJson/build/CMakeFiles/CMakeScratch/TryCompile-Y4XtuB']
+        ignore line: [Building CXX object CMakeFiles/cmTC_db443.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_db443.dir/CMakeCXXCompilerABI.cpp.o -c /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -454,8 +578,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d7bc3.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d7bc3.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_d7bc3.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc1yJE3V.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_db443.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_db443.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_db443.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc7p0UfG.s]
         ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
         ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
         ignore line: []
@@ -466,6 +590,18 @@ events:
         ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
         ignore line: [#include "..." search starts here:]
         ignore line: [#include <...> search starts here:]
+        ignore line: [ /home/mastania/intel/oneapi/tbb/2021.11/env/../include]
+        ignore line: [ /home/mastania/intel/oneapi/mpi/2021.11/include]
+        ignore line: [ /home/mastania/intel/oneapi/mkl/2024.0/include]
+        ignore line: [ /home/mastania/intel/oneapi/ippcp/2021.9/include]
+        ignore line: [ /home/mastania/intel/oneapi/ipp/2021.10/include]
+        ignore line: [ /home/mastania/intel/oneapi/dpl/2022.3/include]
+        ignore line: [ /home/mastania/intel/oneapi/dpcpp-ct/2024.0/include]
+        ignore line: [ /home/mastania/intel/oneapi/dnnl/2024.0/include]
+        ignore line: [ /home/mastania/intel/oneapi/dev-utilities/2024.0/include]
+        ignore line: [ /home/mastania/intel/oneapi/dal/2024.0/include/dal]
+        ignore line: [ /home/mastania/intel/oneapi/compiler/2024.0/opt/oclfpga/include]
+        ignore line: [ /home/mastania/intel/oneapi/ccl/2021.11/include]
         ignore line: [ /usr/include/c++/11]
         ignore line: [ /usr/include/x86_64-linux-gnu/c++/11]
         ignore line: [ /usr/include/c++/11/backward]
@@ -479,15 +615,15 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: d591828bb4d392ae8b7b160e5bb0b95f]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d7bc3.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d7bc3.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_d7bc3.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc1yJE3V.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_db443.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_db443.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_db443.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc7p0UfG.s]
         ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
-        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d7bc3.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d7bc3.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_d7bc3]
-        ignore line: [/home/mastania/envs/cmake-3.29.3-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7bc3.dir/link.txt --verbose=1]
-        ignore line: [/usr/bin/c++  -v -Wl -v CMakeFiles/cmTC_d7bc3.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_d7bc3]
+        ignore line: [LIBRARY_PATH=/home/mastania/intel/oneapi/tbb/2021.11/env/../lib/intel64/gcc4.8/../lib/:/home/mastania/intel/oneapi/mpi/2021.11/lib/../lib/:/home/mastania/intel/oneapi/mkl/2024.0/lib/../lib/:/home/mastania/intel/oneapi/ippcp/2021.9/lib/../lib/:/home/mastania/intel/oneapi/ipp/2021.10/lib/../lib/:/home/mastania/intel/oneapi/dpl/2022.3/lib/../lib/:/home/mastania/intel/oneapi/dnnl/2024.0/lib/../lib/:/home/mastania/intel/oneapi/dal/2024.0/lib/../lib/:/home/mastania/intel/oneapi/compiler/2024.0/lib/../lib/:/home/mastania/intel/oneapi/ccl/2021.11/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/mastania/intel/oneapi/tbb/2021.11/env/../lib/intel64/gcc4.8/:/home/mastania/intel/oneapi/mpi/2021.11/lib/:/home/mastania/intel/oneapi/mkl/2024.0/lib/:/home/mastania/intel/oneapi/ippcp/2021.9/lib/:/home/mastania/intel/oneapi/ipp/2021.10/lib/:/home/mastania/intel/oneapi/dpl/2022.3/lib/:/home/mastania/intel/oneapi/dnnl/2024.0/lib/:/home/mastania/intel/oneapi/dal/2024.0/lib/:/home/mastania/intel/oneapi/compiler/2024.0/lib/:/home/mastania/intel/oneapi/ccl/2021.11/lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_db443.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_db443.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_db443]
+        ignore line: [/home/mastania/envs/cmake-3.29.3-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db443.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/c++  -v -Wl -v CMakeFiles/cmTC_db443.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_db443]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
@@ -499,14 +635,14 @@ events:
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
-        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d7bc3' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d7bc3.']
-        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccr5YCZm.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_d7bc3 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_d7bc3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [LIBRARY_PATH=/home/mastania/intel/oneapi/tbb/2021.11/env/../lib/intel64/gcc4.8/../lib/:/home/mastania/intel/oneapi/mpi/2021.11/lib/../lib/:/home/mastania/intel/oneapi/mkl/2024.0/lib/../lib/:/home/mastania/intel/oneapi/ippcp/2021.9/lib/../lib/:/home/mastania/intel/oneapi/ipp/2021.10/lib/../lib/:/home/mastania/intel/oneapi/dpl/2022.3/lib/../lib/:/home/mastania/intel/oneapi/dnnl/2024.0/lib/../lib/:/home/mastania/intel/oneapi/dal/2024.0/lib/../lib/:/home/mastania/intel/oneapi/compiler/2024.0/lib/../lib/:/home/mastania/intel/oneapi/ccl/2021.11/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/mastania/intel/oneapi/tbb/2021.11/env/../lib/intel64/gcc4.8/:/home/mastania/intel/oneapi/mpi/2021.11/lib/:/home/mastania/intel/oneapi/mkl/2024.0/lib/:/home/mastania/intel/oneapi/ippcp/2021.9/lib/:/home/mastania/intel/oneapi/ipp/2021.10/lib/:/home/mastania/intel/oneapi/dpl/2022.3/lib/:/home/mastania/intel/oneapi/dnnl/2024.0/lib/:/home/mastania/intel/oneapi/dal/2024.0/lib/:/home/mastania/intel/oneapi/compiler/2024.0/lib/:/home/mastania/intel/oneapi/ccl/2021.11/lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_db443' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_db443.']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccLMobh0.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_db443 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/home/mastania/intel/oneapi/tbb/2021.11/env/../lib/intel64/gcc4.8/../lib -L/home/mastania/intel/oneapi/mpi/2021.11/lib/../lib -L/home/mastania/intel/oneapi/mkl/2024.0/lib/../lib -L/home/mastania/intel/oneapi/ippcp/2021.9/lib/../lib -L/home/mastania/intel/oneapi/ipp/2021.10/lib/../lib -L/home/mastania/intel/oneapi/dpl/2022.3/lib/../lib -L/home/mastania/intel/oneapi/dnnl/2024.0/lib/../lib -L/home/mastania/intel/oneapi/dal/2024.0/lib/../lib -L/home/mastania/intel/oneapi/compiler/2024.0/lib/../lib -L/home/mastania/intel/oneapi/ccl/2021.11/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/mastania/intel/oneapi/tbb/2021.11/env/../lib/intel64/gcc4.8 -L/home/mastania/intel/oneapi/mpi/2021.11/lib -L/home/mastania/intel/oneapi/mkl/2024.0/lib -L/home/mastania/intel/oneapi/ippcp/2021.9/lib -L/home/mastania/intel/oneapi/ipp/2021.10/lib -L/home/mastania/intel/oneapi/dpl/2022.3/lib -L/home/mastania/intel/oneapi/dnnl/2024.0/lib -L/home/mastania/intel/oneapi/dal/2024.0/lib -L/home/mastania/intel/oneapi/compiler/2024.0/lib -L/home/mastania/intel/oneapi/ccl/2021.11/lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_db443.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccr5YCZm.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccLMobh0.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -524,10 +660,20 @@ events:
           arg [-znow] ==> ignore
           arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_d7bc3] ==> ignore
+          arg [cmTC_db443] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+          arg [-L/home/mastania/intel/oneapi/tbb/2021.11/env/../lib/intel64/gcc4.8/../lib] ==> dir [/home/mastania/intel/oneapi/tbb/2021.11/env/../lib/intel64/gcc4.8/../lib]
+          arg [-L/home/mastania/intel/oneapi/mpi/2021.11/lib/../lib] ==> dir [/home/mastania/intel/oneapi/mpi/2021.11/lib/../lib]
+          arg [-L/home/mastania/intel/oneapi/mkl/2024.0/lib/../lib] ==> dir [/home/mastania/intel/oneapi/mkl/2024.0/lib/../lib]
+          arg [-L/home/mastania/intel/oneapi/ippcp/2021.9/lib/../lib] ==> dir [/home/mastania/intel/oneapi/ippcp/2021.9/lib/../lib]
+          arg [-L/home/mastania/intel/oneapi/ipp/2021.10/lib/../lib] ==> dir [/home/mastania/intel/oneapi/ipp/2021.10/lib/../lib]
+          arg [-L/home/mastania/intel/oneapi/dpl/2022.3/lib/../lib] ==> dir [/home/mastania/intel/oneapi/dpl/2022.3/lib/../lib]
+          arg [-L/home/mastania/intel/oneapi/dnnl/2024.0/lib/../lib] ==> dir [/home/mastania/intel/oneapi/dnnl/2024.0/lib/../lib]
+          arg [-L/home/mastania/intel/oneapi/dal/2024.0/lib/../lib] ==> dir [/home/mastania/intel/oneapi/dal/2024.0/lib/../lib]
+          arg [-L/home/mastania/intel/oneapi/compiler/2024.0/lib/../lib] ==> dir [/home/mastania/intel/oneapi/compiler/2024.0/lib/../lib]
+          arg [-L/home/mastania/intel/oneapi/ccl/2021.11/lib/../lib] ==> dir [/home/mastania/intel/oneapi/ccl/2021.11/lib/../lib]
           arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
           arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
           arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
@@ -535,9 +681,19 @@ events:
           arg [-L/lib/../lib] ==> dir [/lib/../lib]
           arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/home/mastania/intel/oneapi/tbb/2021.11/env/../lib/intel64/gcc4.8] ==> dir [/home/mastania/intel/oneapi/tbb/2021.11/env/../lib/intel64/gcc4.8]
+          arg [-L/home/mastania/intel/oneapi/mpi/2021.11/lib] ==> dir [/home/mastania/intel/oneapi/mpi/2021.11/lib]
+          arg [-L/home/mastania/intel/oneapi/mkl/2024.0/lib] ==> dir [/home/mastania/intel/oneapi/mkl/2024.0/lib]
+          arg [-L/home/mastania/intel/oneapi/ippcp/2021.9/lib] ==> dir [/home/mastania/intel/oneapi/ippcp/2021.9/lib]
+          arg [-L/home/mastania/intel/oneapi/ipp/2021.10/lib] ==> dir [/home/mastania/intel/oneapi/ipp/2021.10/lib]
+          arg [-L/home/mastania/intel/oneapi/dpl/2022.3/lib] ==> dir [/home/mastania/intel/oneapi/dpl/2022.3/lib]
+          arg [-L/home/mastania/intel/oneapi/dnnl/2024.0/lib] ==> dir [/home/mastania/intel/oneapi/dnnl/2024.0/lib]
+          arg [-L/home/mastania/intel/oneapi/dal/2024.0/lib] ==> dir [/home/mastania/intel/oneapi/dal/2024.0/lib]
+          arg [-L/home/mastania/intel/oneapi/compiler/2024.0/lib] ==> dir [/home/mastania/intel/oneapi/compiler/2024.0/lib]
+          arg [-L/home/mastania/intel/oneapi/ccl/2021.11/lib] ==> dir [/home/mastania/intel/oneapi/ccl/2021.11/lib]
           arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_d7bc3.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_db443.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -548,11 +704,21 @@ events:
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
         ignore line: [collect2 version 11.4.0]
-        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccr5YCZm.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_d7bc3 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_d7bc3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccLMobh0.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_db443 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/home/mastania/intel/oneapi/tbb/2021.11/env/../lib/intel64/gcc4.8/../lib -L/home/mastania/intel/oneapi/mpi/2021.11/lib/../lib -L/home/mastania/intel/oneapi/mkl/2024.0/lib/../lib -L/home/mastania/intel/oneapi/ippcp/2021.9/lib/../lib -L/home/mastania/intel/oneapi/ipp/2021.10/lib/../lib -L/home/mastania/intel/oneapi/dpl/2022.3/lib/../lib -L/home/mastania/intel/oneapi/dnnl/2024.0/lib/../lib -L/home/mastania/intel/oneapi/dal/2024.0/lib/../lib -L/home/mastania/intel/oneapi/compiler/2024.0/lib/../lib -L/home/mastania/intel/oneapi/ccl/2021.11/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/mastania/intel/oneapi/tbb/2021.11/env/../lib/intel64/gcc4.8 -L/home/mastania/intel/oneapi/mpi/2021.11/lib -L/home/mastania/intel/oneapi/mkl/2024.0/lib -L/home/mastania/intel/oneapi/ippcp/2021.9/lib -L/home/mastania/intel/oneapi/ipp/2021.10/lib -L/home/mastania/intel/oneapi/dpl/2022.3/lib -L/home/mastania/intel/oneapi/dnnl/2024.0/lib -L/home/mastania/intel/oneapi/dal/2024.0/lib -L/home/mastania/intel/oneapi/compiler/2024.0/lib -L/home/mastania/intel/oneapi/ccl/2021.11/lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_db443.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
         linker tool for 'CXX': /usr/bin/ld
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/home/mastania/intel/oneapi/tbb/2021.11/env/../lib/intel64/gcc4.8/../lib] ==> [/home/mastania/intel/oneapi/tbb/2021.11/lib/intel64/lib]
+        collapse library dir [/home/mastania/intel/oneapi/mpi/2021.11/lib/../lib] ==> [/home/mastania/intel/oneapi/mpi/2021.11/lib]
+        collapse library dir [/home/mastania/intel/oneapi/mkl/2024.0/lib/../lib] ==> [/home/mastania/intel/oneapi/mkl/2024.0/lib]
+        collapse library dir [/home/mastania/intel/oneapi/ippcp/2021.9/lib/../lib] ==> [/home/mastania/intel/oneapi/ippcp/2021.9/lib]
+        collapse library dir [/home/mastania/intel/oneapi/ipp/2021.10/lib/../lib] ==> [/home/mastania/intel/oneapi/ipp/2021.10/lib]
+        collapse library dir [/home/mastania/intel/oneapi/dpl/2022.3/lib/../lib] ==> [/home/mastania/intel/oneapi/dpl/2022.3/lib]
+        collapse library dir [/home/mastania/intel/oneapi/dnnl/2024.0/lib/../lib] ==> [/home/mastania/intel/oneapi/dnnl/2024.0/lib]
+        collapse library dir [/home/mastania/intel/oneapi/dal/2024.0/lib/../lib] ==> [/home/mastania/intel/oneapi/dal/2024.0/lib]
+        collapse library dir [/home/mastania/intel/oneapi/compiler/2024.0/lib/../lib] ==> [/home/mastania/intel/oneapi/compiler/2024.0/lib]
+        collapse library dir [/home/mastania/intel/oneapi/ccl/2021.11/lib/../lib] ==> [/home/mastania/intel/oneapi/ccl/2021.11/lib]
         collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
         collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
         collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
@@ -560,10 +726,20 @@ events:
         collapse library dir [/lib/../lib] ==> [/lib]
         collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
         collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/home/mastania/intel/oneapi/tbb/2021.11/env/../lib/intel64/gcc4.8] ==> [/home/mastania/intel/oneapi/tbb/2021.11/lib/intel64/gcc4.8]
+        collapse library dir [/home/mastania/intel/oneapi/mpi/2021.11/lib] ==> [/home/mastania/intel/oneapi/mpi/2021.11/lib]
+        collapse library dir [/home/mastania/intel/oneapi/mkl/2024.0/lib] ==> [/home/mastania/intel/oneapi/mkl/2024.0/lib]
+        collapse library dir [/home/mastania/intel/oneapi/ippcp/2021.9/lib] ==> [/home/mastania/intel/oneapi/ippcp/2021.9/lib]
+        collapse library dir [/home/mastania/intel/oneapi/ipp/2021.10/lib] ==> [/home/mastania/intel/oneapi/ipp/2021.10/lib]
+        collapse library dir [/home/mastania/intel/oneapi/dpl/2022.3/lib] ==> [/home/mastania/intel/oneapi/dpl/2022.3/lib]
+        collapse library dir [/home/mastania/intel/oneapi/dnnl/2024.0/lib] ==> [/home/mastania/intel/oneapi/dnnl/2024.0/lib]
+        collapse library dir [/home/mastania/intel/oneapi/dal/2024.0/lib] ==> [/home/mastania/intel/oneapi/dal/2024.0/lib]
+        collapse library dir [/home/mastania/intel/oneapi/compiler/2024.0/lib] ==> [/home/mastania/intel/oneapi/compiler/2024.0/lib]
+        collapse library dir [/home/mastania/intel/oneapi/ccl/2021.11/lib] ==> [/home/mastania/intel/oneapi/ccl/2021.11/lib]
         collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
         implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
         implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
-        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit dirs: [/home/mastania/intel/oneapi/tbb/2021.11/lib/intel64/lib;/home/mastania/intel/oneapi/mpi/2021.11/lib;/home/mastania/intel/oneapi/mkl/2024.0/lib;/home/mastania/intel/oneapi/ippcp/2021.9/lib;/home/mastania/intel/oneapi/ipp/2021.10/lib;/home/mastania/intel/oneapi/dpl/2022.3/lib;/home/mastania/intel/oneapi/dnnl/2024.0/lib;/home/mastania/intel/oneapi/dal/2024.0/lib;/home/mastania/intel/oneapi/compiler/2024.0/lib;/home/mastania/intel/oneapi/ccl/2021.11/lib;/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib;/home/mastania/intel/oneapi/tbb/2021.11/lib/intel64/gcc4.8]
         implicit fwks: []
       
       
@@ -597,7 +773,7 @@ events:
       - "CMakeLists.txt:3 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-      Compiler: /usr/bin/gcc 
+      Compiler: /usr/bin/cc 
       Build flags: 
       Id flags:  
       
@@ -608,7 +784,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
       
       The C compiler identification is GNU, found in:
-        /home/mastania/funjson/build/CMakeFiles/3.29.3/CompilerIdC/a.out
+        /home/mastania/FunJson2/FunJson/build/CMakeFiles/3.29.3/CompilerIdC/a.out
       
   -
     kind: "message-v1"
@@ -619,7 +795,7 @@ events:
       - "CMakeLists.txt:3 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-      Compiler: /usr/bin/g++ 
+      Compiler: /usr/bin/c++ 
       Build flags: 
       Id flags:  
       
@@ -630,7 +806,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
       
       The CXX compiler identification is GNU, found in:
-        /home/mastania/funjson/build/CMakeFiles/3.29.3/CompilerIdCXX/a.out
+        /home/mastania/FunJson2/FunJson/build/CMakeFiles/3.29.3/CompilerIdCXX/a.out
       
   -
     kind: "try_compile-v1"
@@ -641,8 +817,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/mastania/funjson/build/CMakeFiles/CMakeScratch/TryCompile-koIFkQ"
-      binary: "/home/mastania/funjson/build/CMakeFiles/CMakeScratch/TryCompile-koIFkQ"
+      source: "/home/mastania/FunJson2/FunJson/build/CMakeFiles/CMakeScratch/TryCompile-4vFLw5"
+      binary: "/home/mastania/FunJson2/FunJson/build/CMakeFiles/CMakeScratch/TryCompile-4vFLw5"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -651,12 +827,12 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/mastania/funjson/build/CMakeFiles/CMakeScratch/TryCompile-koIFkQ'
+        Change Dir: '/home/mastania/FunJson2/FunJson/build/CMakeFiles/CMakeScratch/TryCompile-4vFLw5'
         
-        Run Build Command(s): /usr/bin/ninja -v cmTC_06ec4
-        [1/2] /usr/bin/gcc   -v -o CMakeFiles/cmTC_06ec4.dir/CMakeCCompilerABI.c.o -c /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /usr/bin/ninja -v cmTC_e24ef
+        [1/2] /usr/bin/cc   -v -o CMakeFiles/cmTC_e24ef.dir/CMakeCCompilerABI.c.o -c /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/CMakeCCompilerABI.c
         Using built-in specs.
-        COLLECT_GCC=/usr/bin/gcc
+        COLLECT_GCC=/usr/bin/cc
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
         OFFLOAD_TARGET_DEFAULT=1
         Target: x86_64-linux-gnu
@@ -664,8 +840,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_06ec4.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_06ec4.dir/'
-         /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_06ec4.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccKwPwpP.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e24ef.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e24ef.dir/'
+         /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_e24ef.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccCSTAoj.s
         GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
         	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
         
@@ -685,15 +861,15 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: 50eaa2331df977b8016186198deb2d18
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_06ec4.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_06ec4.dir/'
-         as -v --64 -o CMakeFiles/cmTC_06ec4.dir/CMakeCCompilerABI.c.o /tmp/ccKwPwpP.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e24ef.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e24ef.dir/'
+         as -v --64 -o CMakeFiles/cmTC_e24ef.dir/CMakeCCompilerABI.c.o /tmp/ccCSTAoj.s
         GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
         COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_06ec4.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_06ec4.dir/CMakeCCompilerABI.c.'
-        [2/2] : && /usr/bin/gcc  -v -Wl,-v CMakeFiles/cmTC_06ec4.dir/CMakeCCompilerABI.c.o -o cmTC_06ec4   && :
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e24ef.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e24ef.dir/CMakeCCompilerABI.c.'
+        [2/2] : && /usr/bin/cc  -v -Wl,-v CMakeFiles/cmTC_e24ef.dir/CMakeCCompilerABI.c.o -o cmTC_e24ef   && :
         Using built-in specs.
-        COLLECT_GCC=/usr/bin/gcc
+        COLLECT_GCC=/usr/bin/cc
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
         OFFLOAD_TARGET_DEFAULT=1
@@ -704,12 +880,12 @@ events:
         gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
         COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_06ec4' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_06ec4.'
-         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cceUqrg4.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_06ec4 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_06ec4.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e24ef' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_e24ef.'
+         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdDl8dK.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_e24ef /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_e24ef.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
         collect2 version 11.4.0
-        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cceUqrg4.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_06ec4 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_06ec4.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdDl8dK.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_e24ef /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_e24ef.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
         GNU ld (GNU Binutils for Ubuntu) 2.38
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_06ec4' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_06ec4.'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e24ef' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_e24ef.'
         
       exitCode: 0
   -
@@ -744,12 +920,12 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: '/home/mastania/funjson/build/CMakeFiles/CMakeScratch/TryCompile-koIFkQ']
+        ignore line: [Change Dir: '/home/mastania/FunJson2/FunJson/build/CMakeFiles/CMakeScratch/TryCompile-4vFLw5']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/ninja -v cmTC_06ec4]
-        ignore line: [[1/2] /usr/bin/gcc   -v -o CMakeFiles/cmTC_06ec4.dir/CMakeCCompilerABI.c.o -c /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /usr/bin/ninja -v cmTC_e24ef]
+        ignore line: [[1/2] /usr/bin/cc   -v -o CMakeFiles/cmTC_e24ef.dir/CMakeCCompilerABI.c.o -c /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=/usr/bin/gcc]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
         ignore line: [OFFLOAD_TARGET_DEFAULT=1]
         ignore line: [Target: x86_64-linux-gnu]
@@ -757,8 +933,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_06ec4.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_06ec4.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_06ec4.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccKwPwpP.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e24ef.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e24ef.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_e24ef.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccCSTAoj.s]
         ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
         ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
         ignore line: []
@@ -778,15 +954,15 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: 50eaa2331df977b8016186198deb2d18]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_06ec4.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_06ec4.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_06ec4.dir/CMakeCCompilerABI.c.o /tmp/ccKwPwpP.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e24ef.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e24ef.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_e24ef.dir/CMakeCCompilerABI.c.o /tmp/ccCSTAoj.s]
         ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_06ec4.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_06ec4.dir/CMakeCCompilerABI.c.']
-        ignore line: [[2/2] : && /usr/bin/gcc  -v -Wl -v CMakeFiles/cmTC_06ec4.dir/CMakeCCompilerABI.c.o -o cmTC_06ec4   && :]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e24ef.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e24ef.dir/CMakeCCompilerABI.c.']
+        ignore line: [[2/2] : && /usr/bin/cc  -v -Wl -v CMakeFiles/cmTC_e24ef.dir/CMakeCCompilerABI.c.o -o cmTC_e24ef   && :]
         ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=/usr/bin/gcc]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
         ignore line: [OFFLOAD_TARGET_DEFAULT=1]
@@ -797,13 +973,13 @@ events:
         ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_06ec4' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_06ec4.']
-        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cceUqrg4.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_06ec4 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_06ec4.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e24ef' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_e24ef.']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdDl8dK.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_e24ef /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_e24ef.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/cceUqrg4.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccdDl8dK.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -821,7 +997,7 @@ events:
           arg [-znow] ==> ignore
           arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_06ec4] ==> ignore
+          arg [cmTC_e24ef] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
@@ -834,7 +1010,7 @@ events:
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
           arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_06ec4.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_e24ef.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [--push-state] ==> ignore
           arg [--as-needed] ==> ignore
@@ -849,7 +1025,7 @@ events:
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
         ignore line: [collect2 version 11.4.0]
-        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cceUqrg4.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_06ec4 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_06ec4.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdDl8dK.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_e24ef /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_e24ef.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
         linker tool for 'C': /usr/bin/ld
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
@@ -887,8 +1063,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/mastania/funjson/build/CMakeFiles/CMakeScratch/TryCompile-JnYvx2"
-      binary: "/home/mastania/funjson/build/CMakeFiles/CMakeScratch/TryCompile-JnYvx2"
+      source: "/home/mastania/FunJson2/FunJson/build/CMakeFiles/CMakeScratch/TryCompile-7guq8u"
+      binary: "/home/mastania/FunJson2/FunJson/build/CMakeFiles/CMakeScratch/TryCompile-7guq8u"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -898,12 +1074,12 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/mastania/funjson/build/CMakeFiles/CMakeScratch/TryCompile-JnYvx2'
+        Change Dir: '/home/mastania/FunJson2/FunJson/build/CMakeFiles/CMakeScratch/TryCompile-7guq8u'
         
-        Run Build Command(s): /usr/bin/ninja -v cmTC_b0aec
-        [1/2] /usr/bin/g++   -v -o CMakeFiles/cmTC_b0aec.dir/CMakeCXXCompilerABI.cpp.o -c /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/bin/ninja -v cmTC_b211c
+        [1/2] /usr/bin/c++   -v -o CMakeFiles/cmTC_b211c.dir/CMakeCXXCompilerABI.cpp.o -c /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
-        COLLECT_GCC=/usr/bin/g++
+        COLLECT_GCC=/usr/bin/c++
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
         OFFLOAD_TARGET_DEFAULT=1
         Target: x86_64-linux-gnu
@@ -911,8 +1087,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b0aec.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b0aec.dir/'
-         /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_b0aec.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc1QQZNt.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b211c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b211c.dir/'
+         /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_b211c.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccDXygjB.s
         GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
         	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
         
@@ -936,15 +1112,15 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: d591828bb4d392ae8b7b160e5bb0b95f
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b0aec.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b0aec.dir/'
-         as -v --64 -o CMakeFiles/cmTC_b0aec.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc1QQZNt.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b211c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b211c.dir/'
+         as -v --64 -o CMakeFiles/cmTC_b211c.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccDXygjB.s
         GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
         COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b0aec.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b0aec.dir/CMakeCXXCompilerABI.cpp.'
-        [2/2] : && /usr/bin/g++  -v -Wl,-v CMakeFiles/cmTC_b0aec.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_b0aec   && :
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b211c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b211c.dir/CMakeCXXCompilerABI.cpp.'
+        [2/2] : && /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_b211c.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_b211c   && :
         Using built-in specs.
-        COLLECT_GCC=/usr/bin/g++
+        COLLECT_GCC=/usr/bin/c++
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
         OFFLOAD_TARGET_DEFAULT=1
@@ -955,12 +1131,12 @@ events:
         gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
         COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b0aec' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b0aec.'
-         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccuIaIPa.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_b0aec /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_b0aec.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b211c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b211c.'
+         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4Q68Mj.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_b211c /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_b211c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
         collect2 version 11.4.0
-        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccuIaIPa.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_b0aec /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_b0aec.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4Q68Mj.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_b211c /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_b211c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
         GNU ld (GNU Binutils for Ubuntu) 2.38
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b0aec' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b0aec.'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b211c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b211c.'
         
       exitCode: 0
   -
@@ -1001,12 +1177,12 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: '/home/mastania/funjson/build/CMakeFiles/CMakeScratch/TryCompile-JnYvx2']
+        ignore line: [Change Dir: '/home/mastania/FunJson2/FunJson/build/CMakeFiles/CMakeScratch/TryCompile-7guq8u']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/ninja -v cmTC_b0aec]
-        ignore line: [[1/2] /usr/bin/g++   -v -o CMakeFiles/cmTC_b0aec.dir/CMakeCXXCompilerABI.cpp.o -c /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/bin/ninja -v cmTC_b211c]
+        ignore line: [[1/2] /usr/bin/c++   -v -o CMakeFiles/cmTC_b211c.dir/CMakeCXXCompilerABI.cpp.o -c /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=/usr/bin/g++]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
         ignore line: [OFFLOAD_TARGET_DEFAULT=1]
         ignore line: [Target: x86_64-linux-gnu]
@@ -1014,8 +1190,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b0aec.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b0aec.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_b0aec.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc1QQZNt.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b211c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b211c.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/mastania/envs/cmake-3.29.3-linux-x86_64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_b211c.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccDXygjB.s]
         ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
         ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
         ignore line: []
@@ -1039,15 +1215,15 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: d591828bb4d392ae8b7b160e5bb0b95f]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b0aec.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b0aec.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_b0aec.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc1QQZNt.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b211c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b211c.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_b211c.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccDXygjB.s]
         ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b0aec.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b0aec.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [[2/2] : && /usr/bin/g++  -v -Wl -v CMakeFiles/cmTC_b0aec.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_b0aec   && :]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b211c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b211c.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [[2/2] : && /usr/bin/c++  -v -Wl -v CMakeFiles/cmTC_b211c.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_b211c   && :]
         ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=/usr/bin/g++]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
         ignore line: [OFFLOAD_TARGET_DEFAULT=1]
@@ -1058,13 +1234,13 @@ events:
         ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b0aec' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b0aec.']
-        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccuIaIPa.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_b0aec /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_b0aec.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b211c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b211c.']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4Q68Mj.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_b211c /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_b211c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccuIaIPa.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cc4Q68Mj.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -1082,7 +1258,7 @@ events:
           arg [-znow] ==> ignore
           arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_b0aec] ==> ignore
+          arg [cmTC_b211c] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
@@ -1095,7 +1271,7 @@ events:
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
           arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_b0aec.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_b211c.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -1106,7 +1282,7 @@ events:
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
         ignore line: [collect2 version 11.4.0]
-        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccuIaIPa.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_b0aec /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_b0aec.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4Q68Mj.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_b211c /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_b211c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
         linker tool for 'CXX': /usr/bin/ld
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]

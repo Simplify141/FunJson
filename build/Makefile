@@ -57,10 +57,10 @@ RM = /home/mastania/envs/cmake-3.29.3-linux-x86_64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mastania/funjson
+CMAKE_SOURCE_DIR = /home/mastania/FunJson2/FunJson
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mastania/funjson/build
+CMAKE_BINARY_DIR = /home/mastania/FunJson2/FunJson/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mastania/funjson/build/CMakeFiles /home/mastania/funjson/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mastania/FunJson2/FunJson/build/CMakeFiles /home/mastania/FunJson2/FunJson/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mastania/funjson/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mastania/FunJson2/FunJson/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -152,6 +152,30 @@ src/FunJsonBuilder.s: src/FunJsonBuilder.cpp.s
 src/FunJsonBuilder.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/funjson_test.dir/build.make CMakeFiles/funjson_test.dir/src/FunJsonBuilder.cpp.s
 .PHONY : src/FunJsonBuilder.cpp.s
+
+src/Iterator.o: src/Iterator.cpp.o
+.PHONY : src/Iterator.o
+
+# target to build an object file
+src/Iterator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funjson_test.dir/build.make CMakeFiles/funjson_test.dir/src/Iterator.cpp.o
+.PHONY : src/Iterator.cpp.o
+
+src/Iterator.i: src/Iterator.cpp.i
+.PHONY : src/Iterator.i
+
+# target to preprocess a source file
+src/Iterator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funjson_test.dir/build.make CMakeFiles/funjson_test.dir/src/Iterator.cpp.i
+.PHONY : src/Iterator.cpp.i
+
+src/Iterator.s: src/Iterator.cpp.s
+.PHONY : src/Iterator.s
+
+# target to generate assembly for a file
+src/Iterator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funjson_test.dir/build.make CMakeFiles/funjson_test.dir/src/Iterator.cpp.s
+.PHONY : src/Iterator.cpp.s
 
 src/JsonParser.o: src/JsonParser.cpp.o
 .PHONY : src/JsonParser.o
@@ -225,29 +249,29 @@ src/Node.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/funjson_test.dir/build.make CMakeFiles/funjson_test.dir/src/Node.cpp.s
 .PHONY : src/Node.cpp.s
 
-src/StyleFactory.o: src/StyleFactory.cpp.o
-.PHONY : src/StyleFactory.o
+src/StyleStrategy.o: src/StyleStrategy.cpp.o
+.PHONY : src/StyleStrategy.o
 
 # target to build an object file
-src/StyleFactory.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funjson_test.dir/build.make CMakeFiles/funjson_test.dir/src/StyleFactory.cpp.o
-.PHONY : src/StyleFactory.cpp.o
+src/StyleStrategy.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funjson_test.dir/build.make CMakeFiles/funjson_test.dir/src/StyleStrategy.cpp.o
+.PHONY : src/StyleStrategy.cpp.o
 
-src/StyleFactory.i: src/StyleFactory.cpp.i
-.PHONY : src/StyleFactory.i
+src/StyleStrategy.i: src/StyleStrategy.cpp.i
+.PHONY : src/StyleStrategy.i
 
 # target to preprocess a source file
-src/StyleFactory.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funjson_test.dir/build.make CMakeFiles/funjson_test.dir/src/StyleFactory.cpp.i
-.PHONY : src/StyleFactory.cpp.i
+src/StyleStrategy.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funjson_test.dir/build.make CMakeFiles/funjson_test.dir/src/StyleStrategy.cpp.i
+.PHONY : src/StyleStrategy.cpp.i
 
-src/StyleFactory.s: src/StyleFactory.cpp.s
-.PHONY : src/StyleFactory.s
+src/StyleStrategy.s: src/StyleStrategy.cpp.s
+.PHONY : src/StyleStrategy.s
 
 # target to generate assembly for a file
-src/StyleFactory.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/funjson_test.dir/build.make CMakeFiles/funjson_test.dir/src/StyleFactory.cpp.s
-.PHONY : src/StyleFactory.cpp.s
+src/StyleStrategy.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/funjson_test.dir/build.make CMakeFiles/funjson_test.dir/src/StyleStrategy.cpp.s
+.PHONY : src/StyleStrategy.cpp.s
 
 src/TreeNode.o: src/TreeNode.cpp.o
 .PHONY : src/TreeNode.o
@@ -285,6 +309,9 @@ help:
 	@echo "... src/FunJsonBuilder.o"
 	@echo "... src/FunJsonBuilder.i"
 	@echo "... src/FunJsonBuilder.s"
+	@echo "... src/Iterator.o"
+	@echo "... src/Iterator.i"
+	@echo "... src/Iterator.s"
 	@echo "... src/JsonParser.o"
 	@echo "... src/JsonParser.i"
 	@echo "... src/JsonParser.s"
@@ -294,9 +321,9 @@ help:
 	@echo "... src/Node.o"
 	@echo "... src/Node.i"
 	@echo "... src/Node.s"
-	@echo "... src/StyleFactory.o"
-	@echo "... src/StyleFactory.i"
-	@echo "... src/StyleFactory.s"
+	@echo "... src/StyleStrategy.o"
+	@echo "... src/StyleStrategy.i"
+	@echo "... src/StyleStrategy.s"
 	@echo "... src/TreeNode.o"
 	@echo "... src/TreeNode.i"
 	@echo "... src/TreeNode.s"
