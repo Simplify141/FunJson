@@ -49,11 +49,11 @@
 			[
 				{
 					"backtrace" : 2,
-					"path" : "/home/mastania/funjson/include"
+					"path" : "/home/mastania/FunJson/include"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "/home/mastania/funjson/src"
+					"path" : "/home/mastania/FunJson/src"
 				}
 			],
 			"language" : "CXX",
